@@ -1,3 +1,9 @@
+import { InteractiveBackground } from "../components/InteractiveBackground";
+
 export function Home() {
-  return <h1>Home</h1>;
+  return (
+    <InteractiveBackground>
+      <h1>Home</h1>
+    </InteractiveBackground>
+  );
 }
