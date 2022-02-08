@@ -1,37 +1,74 @@
 {
-    "0": {"name": "Helen Peng", 
+    "0": {
+        "name": "Helen Peng", 
+        "pronouns": "she/her",
         "committee": "Co-chair", 
         "school": "Brown 2023", 
-        "bio": "Helen is a junior at Brown University studying Cognitive Science and Visual arts with the intention of pursuing UX research and design. Helen is driven by using design to amplify voices, especially through fields of sextech, femtech, health, amd medical device design. Helen is from Starkville, MS, and when she isn't trying to convince engineers of the importance of design, she's probably eating tangerines, drawing random people, or hyperfixating on her google calendar. "},
+        "bio": "Helen is a junior at Brown University studying Cognitive Science and Visual Arts with the intention of pursuing UX research and design. Helen is driven by using design to amplify voices, especially through fields of sextech, femtech, health, amd medical device design. Helen is from Starkville, MS, and when she isn't trying to convince engineers of the importance of design, she's probably eating tangerines, drawing random people, or hyperfixating on her google calendar.",
+        "portfolio": "helenpeng.me"
+    },
     "1": {
         "name": "Sofia Di Lodovico", 
+        "pronouns": "she/her",
         "committee": "Co-chair", 
         "school": "RISD 2023", 
-        "bio": "Sofia is an industrial design student at RISD, graduating in the class of 2023. She is passionate about creating useful, sustainable, and ethical human-centered design. As a process centered designer, Sofia's work is deeply grounded in research and analyzing the effects designs create. A fashion aficionado, Sofia is a huge fan of oversized earrings and never leaves her room without a to do list and a sketchbook."},
-    "2": {"name": "", "committee": "", "school": "", "bio": ""},
-    "3": {"name": "", "committee": "", "school": "", "bio": ""},
-    "4": {"name": "", "committee": "", "school": "", "bio": ""},
-    "5": {"name": "", "committee": "", "school": "", "bio": ""},
-    "6": {"name": "", "committee": "", "school": "", "bio": ""},
-    "7": {"name": "", "committee": "", "school": "", "bio": ""},
-    "8": {"name": "", "committee": "", "school": "", "bio": ""},
-    "9": {"name": "", "committee": "", "school": "", "bio": ""},
-    "10": {"name": "", "committee": "", "school": "", "bio": ""},
-    "11": {"name": "", "committee": "", "school": "", "bio": ""},
-    "12": {"name": "", "committee": "", "school": "", "bio": ""},
-    "13": {"name": "", "committee": "", "school": "", "bio": ""},
-    "14": {"name": "", "committee": "", "school": "", "bio": ""},
-    "15": {"name": "", "committee": "", "school": "", "bio": ""},
-    "16": {"name": "", "committee": "", "school": "", "bio": ""},
-    "17": {"name": "", "committee": "", "school": "", "bio": ""},
-    "18": {"name": "", "committee": "", "school": "", "bio": ""},
-    "19": {"name": "", "committee": "", "school": "", "bio": ""},
-    "20": {"name": "", "committee": "", "school": "", "bio": ""},
-    "21": {"name": "", "committee": "", "school": "", "bio": ""},
-    "22": {"name": "", "committee": "", "school": "", "bio": ""},
-    "23": {"name": "", "committee": "", "school": "", "bio": ""},
-    "24": {"name": "", "committee": "", "school": "", "bio": ""},
-    "25": {"name": "", "committee": "", "school": "", "bio": ""},
-    "26": {"name": "", "committee": "", "school": "", "bio": ""},
-    "27": {"name": "", "committee": "", "school": "", "bio": ""},
+        "bio": "Sofia is an industrial design student at RISD, graduating in the class of 2023. She is passionate about creating useful, sustainable, and ethical human-centered design. As a process centered designer, Sofia's work is deeply grounded in research and analyzing the effects designs create. A fashion aficionado, Sofia is a huge fan of oversized earrings and never leaves her room without a to do list and a sketchbook.",
+        "portfolio": "https://sofiadilodovico.com/work"
+    },
+    "2": {
+        "name": "Selena Yang", 
+        "pronouns": "she/her",
+        "committee": "Co-chair", 
+        "school": "RISD 2023", 
+        "bio": "Selena is a junior @ RISD, studying Industrial Design and also concentrating in Computation. As a human centered designer, she wants to design sustainable, innovative, but practical solutions. Furthermore, she also loves using the computer as a design tool, and she would love to show you photos her labrador retriever puppy named Benji.",
+        "portfolio": "selena-yang.com"
+    },
+    "3": {
+        "name": "Amy Zhu", 
+        "pronouns": "",
+        "committee": "Content", 
+        "school": "RISD 2023", 
+        "bio": "Amy is an Industrial Design student at RISD graduating class of 2023. Born and raised in Boston, she firmly believes that Dunkin Donuts is better than Starbucks. She like to explore ways thoughtful design can make innovative but unapproachable technology accessible to the general public. In her free time, Amy likes to use her material scraps to create fun knick knacks for her friends and family. (However, more likely than not, she is actually sleeping).  ",
+        "portfolio": "https://azhu3250.myportfolio.com/"
+    },
+    "4": {
+        "name": "Alex Hogue", 
+        "pronouns": "she/her",
+        "committee": "", 
+        "school": "Brown + RISD 2025", 
+        "bio": "Alex is a first year Brown|RISD dual-degree student studying Computer Science at Brown and Illustration at RISD. She is passionate about exploring the intersections of art and science through technology. Alex loves learning new things, and when she isn’t trying to learn everything she can about obscure scientific topics or memorizing world geography, she enjoys figure skating, trying out new cafés, and going on peaceful strolls during the Providence blizzards.  ",
+        "portfolio": "alexandrarhogue.squarespace.com "
+    },
+    "5": {
+        "name": "", 
+        "pronouns": "",
+        "committee": "", 
+        "school": "", 
+        "bio": "",
+        "portfolio": ""
+    },
+    "6": {
+        "name": "", 
+        "pronouns": "",
+        "committee": "", 
+        "school": "", 
+        "bio": "",
+        "portfolio": ""
+    },
+    "7": {
+        "name": "", 
+        "pronouns": "",
+        "committee": "", 
+        "school": "", 
+        "bio": "",
+        "portfolio": ""
+    },
+    "8": {
+        "name": "", 
+        "pronouns": "",
+        "committee": "", 
+        "school": "", 
+        "bio": "",
+        "portfolio": ""
+    },
 }
