@@ -1,0 +1,49 @@
+/*** ELEMENTS ***/
+
+html {
+    font-family: 'Roboto', sans-serif;;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+/*** GENERAL CLASSES ***/
+
+.page-header {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    padding: 6rem 4rem;
+}
+
+/*** TEAM ***/
+
+.team-row {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 3rem;
+
+    .individual {
+        background-color: gold;
+        margin: 1rem;
+        width: 20vw;
+        max-width: 30rem;
+
+        .pic {
+            border-radius: 50%;
+            width: 100%;
+            height: auto;
+            background-color: white;
+        }
+
+        .name {
+            margin: 1rem 0.5rem 0.5rem 0.5rem;
+        }
+
+        .position, .education {
+            margin: 0.5rem;
+        }
+    }
+}
