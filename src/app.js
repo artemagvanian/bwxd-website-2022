@@ -1,9 +1,11 @@
 import './App.scss';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Routes, Route, Link } from "react-router-dom";
 import { Home } from "./views/Home";
 import { About } from "./views/About";
-import { Team } from "./views/Team";
+import Team from "./views/Team";
 import { Sponsors } from "./views/Sponsors";
+import React from 'react';
 
 export function App() {
 	return (
