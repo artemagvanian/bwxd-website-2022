@@ -150,5 +150,29 @@
         "school": "", 
         "bio": "",
         "portfolio": ""
+    }, 
+    "19": {
+        "name": "Raphael Li", 
+        "pronouns": "he/him",
+        "committee": "Social Events", 
+        "school": "Brown", 
+        "bio": "Raphael is a sophomore at Brown University studying Computer Science. He is from the greatest place on Earth: Carmel, Indiana. As an avid member of the Brown community, Raphael can been seen taking long walks looking for an open table in the dining hall and waiting in line for a weekend burrito. He is also lactose intolerant.",
+        "portfolio": ""
+    },
+    "20": {
+        "name": "Christie Sung", 
+        "pronouns": "",
+        "committee": "Social Events", 
+        "school": "RISD", 
+        "bio": "Christie is a sophomore Industrial Design student at RISD concentrating in Nature Culture Sustainability. Raised in Southern California, Christie believes In-and-out hits the spot like no other burger can. In her free time, Christie loves cooking for her friends, exploring different restaurant, and making small jewelery. ",
+        "portfolio": ""
+    },
+    "21": {
+        "name": "Nicole Nedeff", 
+        "pronouns": "",
+        "committee": "Social Events", 
+        "school": "", 
+        "bio": "",
+        "portfolio": ""
     }
 }
