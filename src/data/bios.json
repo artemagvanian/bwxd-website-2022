@@ -57,7 +57,7 @@
     },
     "7": {
         "name": "Henry Ding", 
-        "pronouns": "",
+        "pronouns": "he/him",
         "committee": "Content", 
         "school": "RISD", 
         "bio": "Henry is a freshman hailing from Toronto, Canada. He's planning on studying Architecture and is thus always fascinated by the built world around him. Where is the intersection of politics, urbanism, and design? How do we frame and contextualize perspectives around architecture to serve and promote greater equity in communities? He also enjoys the implementation of design in Lego, Animal Crossing, and Minecraft. They're truly the way to his heart alongside good food, chunky animals, reading, and staring at atlases.",
@@ -92,7 +92,39 @@
         "pronouns": "she/her",
         "committee": "Development", 
         "school": "Brown", 
-        "bio": "Alyssa is a sophomore at Brown University from Singapore, studying Linguistics and Computer Science. She is endlessly curious about the invisible systems that run our lives, whether that be cgnitive processes in our brains or the magic of very good design. She is often found either very vertically climbing on bouldering walls or very horizontally napping on her bed.",
+        "bio": "Alyssa is a sophomore at Brown University from Singapore, studying Linguistics and Computer Science. She is endlessly curious about the invisible systems that run our lives, whether that be cognitive processes in our brains or the magic of very good design. She is often found either very vertically climbing on bouldering walls or very horizontally napping on her bed.",
         "portfolio": "https://sg.linkedin.com/in/alyssamarieloo"
+    },
+    "12": {
+        "name": "Rebecca Bowers", 
+        "pronouns": "she/her",
+        "committee": "Operations and Sustainability", 
+        "school": "Brown", 
+        "bio": "Rebecca is a sophomore at Brown University studying Applied Math and Architecture. She is motivated to design spaces that prioritize the environment and create spacial justice. At Brown, Rebecca plays the violin in the orchestra and is a member of club tennis. She is from Durango, CO, and enjoys skiing (in the West), running, and showing off her dog Coco. ",
+        "portfolio": ""
+    },
+    "13": {
+        "name": "Will Allstetter", 
+        "pronouns": "he/him",
+        "committee": "Operations and Sustainability", 
+        "school": "Brown", 
+        "bio": "Will is a junior at Brown from Colorado studying computer science and English. While he isn't trying to parse out how language and technology interact, he enjoys scouring Google Earth, reading (send recommendations!), and spending time outside.",
+        "portfolio": "willallstetter.com"
+    },
+    "14": {
+        "name": "Ju Yeon (JoAnne) Lee", 
+        "pronouns": "she/her",
+        "committee": "Operations and Sustainability", 
+        "school": "RISD", 
+        "bio": "JoAnne is currently in her third year, earning BFA in Textiles, at Rhode Island School of Design. In her artistic practice, she enjoys many hands-on crafting. She plans on exploring more expression of visual communication, not constricting herself to a specific medium or subject. Her passion in science has greatly influenced her to bring more awareness to sustainable production and consumption. Favorite fiber is extra fine merino wool. She loves cafes and bars.",
+        "portfolio": "juyeonjoanne.myportfolio.com"
+    },
+    "15": {
+        "name": "Yihan Wang", 
+        "pronouns": "",
+        "committee": "Operations and Sustainability", 
+        "school": "RISD", 
+        "bio": "Yihan is a freshman from Rhode Island School of Design from China, studying industrial design. She is very interested in interdisciplinary topics, and is passionate about exploring the intersection of art, science and humanity. ",
+        "portfolio": ""
     }
 }
