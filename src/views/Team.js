@@ -60,21 +60,67 @@ function Team() {
             <div className="page-header">
                 <h1>2022 Committee</h1>
             </div>
-            <div className="team-row">
+            <div className="team-row" id="cochairs">
                 {renderIndividual(0)}
                 {renderIndividual(1)}
                 {renderIndividual(2)}
             </div>
 
-            <div className="team-row">
+            <div className="team-row" id="content-1">
                 {renderIndividual(3)}
                 {renderIndividual(4)}
+                {renderIndividual(5)}
             </div>
 
-            <div className="team-row">
-                {renderIndividual(1)}
-                {renderIndividual(2)}
-                {renderIndividual(1)}
+            <div className="team-row" id="content-2">
+                {renderIndividual(6)}
+                {renderIndividual(7)}
+                {renderIndividual(8)}
+            </div>
+
+            <div className="team-row" id="dev">
+                {renderIndividual(9)}
+                {renderIndividual(10)}
+                {renderIndividual(11)}
+            </div>
+
+            <div className="team-row" id="ops-1">
+                {renderIndividual(12)}
+                {renderIndividual(13)}
+            </div>
+
+            <div className="team-row" id="ops-2">
+                {renderIndividual(14)}
+                {renderIndividual(15)}
+            </div>
+
+            <div className="team-row" id="ce">
+                {renderIndividual(16)}
+                {renderIndividual(17)}
+                {renderIndividual(18)}
+            </div>
+
+            <div className="team-row" id="se">
+                {renderIndividual(19)}
+                {renderIndividual(20)}
+                {renderIndividual(21)}
+            </div>
+
+            <div className="team-row" id="pr">
+                {renderIndividual(22)}
+                {renderIndividual(23)}
+            </div>
+
+            <div className="team-row" id="graphics">
+                {renderIndividual(24)}
+                {renderIndividual(25)}
+                {renderIndividual(26)}
+            </div>
+
+            <div className="team-row" id="web">
+                {renderIndividual(27)}
+                {renderIndividual(28)}
+                {renderIndividual(29)}
             </div>
 
             {renderModal()}
