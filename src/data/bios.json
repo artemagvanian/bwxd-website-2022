@@ -70,5 +70,29 @@
         "school": "", 
         "bio": "",
         "portfolio": ""
+    },
+    "9": {
+        "name": "Ryan Peng", 
+        "pronouns": "he/him",
+        "committee": "Development", 
+        "school": "Brown", 
+        "bio": "Ryan is a first-year at Brown University studying Design Engineering. With a background in technical theatre, he is most interested in the physical experience of design and broadly seeks to make everyday, ritualistic interactions more purposeful. Currently, in his free time, he tries to understand what goes on west of Benefit Street.",
+        "portfolio": "ryanzpeng.com"
+    },
+    "10": {
+        "name": "Christine Jeong", 
+        "pronouns": "she/her",
+        "committee": "Development", 
+        "school": "Brown", 
+        "bio": "Christine is a sophomore at Brown studying Applied Mathematics-Computer Science. The fact that she is born in the same city as LeBron James and Stephen Curry sticks with people more than the fact that she is from Georgia -- she is not a fan of basketball. ",
+        "portfolio": ""
+    },
+    "11": {
+        "name": "Alyssa Loo", 
+        "pronouns": "she/her",
+        "committee": "Development", 
+        "school": "Brown", 
+        "bio": "Alyssa is a sophomore at Brown University from Singapore, studying Linguistics and Computer Science. She is endlessly curious about the invisible systems that run our lives, whether that be cgnitive processes in our brains or the magic of very good design. She is often found either very vertically climbing on bouldering walls or very horizontally napping on her bed.",
+        "portfolio": "https://sg.linkedin.com/in/alyssamarieloo"
     }
 }
