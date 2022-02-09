@@ -3,7 +3,7 @@
         "name": "Helen Peng", 
         "pronouns": "she/her",
         "committee": "Co-chair", 
-        "school": "Brown 2023", 
+        "school": "Brown", 
         "bio": "Helen is a junior at Brown University studying Cognitive Science and Visual Arts with the intention of pursuing UX research and design. Helen is driven by using design to amplify voices, especially through fields of sextech, femtech, health, amd medical device design. Helen is from Starkville, MS, and when she isn't trying to convince engineers of the importance of design, she's probably eating tangerines, drawing random people, or hyperfixating on her google calendar.",
         "portfolio": "helenpeng.me"
     },
@@ -11,7 +11,7 @@
         "name": "Sofia Di Lodovico", 
         "pronouns": "she/her",
         "committee": "Co-chair", 
-        "school": "RISD 2023", 
+        "school": "RISD", 
         "bio": "Sofia is an industrial design student at RISD, graduating in the class of 2023. She is passionate about creating useful, sustainable, and ethical human-centered design. As a process centered designer, Sofia's work is deeply grounded in research and analyzing the effects designs create. A fashion aficionado, Sofia is a huge fan of oversized earrings and never leaves her room without a to do list and a sketchbook.",
         "portfolio": "https://sofiadilodovico.com/work"
     },
@@ -19,56 +19,56 @@
         "name": "Selena Yang", 
         "pronouns": "she/her",
         "committee": "Co-chair", 
-        "school": "RISD 2023", 
+        "school": "RISD", 
         "bio": "Selena is a junior @ RISD, studying Industrial Design and also concentrating in Computation. As a human centered designer, she wants to design sustainable, innovative, but practical solutions. Furthermore, she also loves using the computer as a design tool, and she would love to show you photos her labrador retriever puppy named Benji.",
         "portfolio": "selena-yang.com"
     },
     "3": {
         "name": "Amy Zhu", 
-        "pronouns": "",
+        "pronouns": "she/her",
         "committee": "Content", 
-        "school": "RISD 2023", 
+        "school": "RISD", 
         "bio": "Amy is an Industrial Design student at RISD graduating class of 2023. Born and raised in Boston, she firmly believes that Dunkin Donuts is better than Starbucks. She like to explore ways thoughtful design can make innovative but unapproachable technology accessible to the general public. In her free time, Amy likes to use her material scraps to create fun knick knacks for her friends and family. (However, more likely than not, she is actually sleeping).  ",
         "portfolio": "https://azhu3250.myportfolio.com/"
     },
     "4": {
         "name": "Alex Hogue", 
         "pronouns": "she/her",
-        "committee": "", 
-        "school": "Brown + RISD 2025", 
+        "committee": "Content", 
+        "school": "Brown + RISD", 
         "bio": "Alex is a first year Brown|RISD dual-degree student studying Computer Science at Brown and Illustration at RISD. She is passionate about exploring the intersections of art and science through technology. Alex loves learning new things, and when she isn’t trying to learn everything she can about obscure scientific topics or memorizing world geography, she enjoys figure skating, trying out new cafés, and going on peaceful strolls during the Providence blizzards.  ",
         "portfolio": "alexandrarhogue.squarespace.com "
     },
     "5": {
-        "name": "", 
-        "pronouns": "",
-        "committee": "", 
-        "school": "", 
-        "bio": "",
-        "portfolio": ""
+        "name": "Jesse Hogan", 
+        "pronouns": "he/him",
+        "committee": "Content", 
+        "school": "Brown", 
+        "bio": "Jesse is a sophomore at Brown from Massachusetts. Cities—and specifically the people and communities inhabiting them—have always inspired him. Studying Architecture and International and Public Affairs, he is fascinated by the role of art, architecture, urban planning, and design in disrupting and reimagining power structures. When he's not complaining about being from the suburbs, you can find him taking runs around Providence, sharing his niche knowledge about Latin and ancient Rome, and romanticizing his life through the lens of his film camera.",
+        "portfolio": "jessejhogan.com"
     },
     "6": {
-        "name": "", 
-        "pronouns": "",
-        "committee": "", 
-        "school": "", 
-        "bio": "",
+        "name": "Natalia Silva", 
+        "pronouns": "she/they",
+        "committee": "Content", 
+        "school": "RISD", 
+        "bio": "Natalia is an architect from Bogotá, Colombia currently studying at RISD as a graduate student. They are an MDes candidate in the department of Interior Architecture with a focus in Narrative Environments and Exhibition Design. After working in the interior design sector, Natalia realized they wanted to combine their passion for interiors with their love of museums -- specifically art museums -- and their interest for graphic design. They are very excited to have found that those three overlap in their current program. Natalia aspires to also find ways to incorporate some of their other interests into architecture through the field of exhibition (i.e. queer activism, feminist theory, and alternative spiritual practices). ",
         "portfolio": ""
     },
     "7": {
-        "name": "", 
+        "name": "Henry Ding", 
         "pronouns": "",
-        "committee": "", 
-        "school": "", 
-        "bio": "",
-        "portfolio": ""
+        "committee": "Content", 
+        "school": "RISD", 
+        "bio": "Henry is a freshman hailing from Toronto, Canada. He's planning on studying Architecture and is thus always fascinated by the built world around him. Where is the intersection of politics, urbanism, and design? How do we frame and contextualize perspectives around architecture to serve and promote greater equity in communities? He also enjoys the implementation of design in Lego, Animal Crossing, and Minecraft. They're truly the way to his heart alongside good food, chunky animals, reading, and staring at atlases.",
+        "portfolio": "henryding.webflow.io"
     },
     "8": {
-        "name": "", 
+        "name": "Malika Abbajebel", 
         "pronouns": "",
-        "committee": "", 
+        "committee": "Content", 
         "school": "", 
         "bio": "",
         "portfolio": ""
-    },
+    }
 }
