@@ -126,5 +126,29 @@
         "school": "RISD", 
         "bio": "Yihan is a freshman from Rhode Island School of Design from China, studying industrial design. She is very interested in interdisciplinary topics, and is passionate about exploring the intersection of art, science and humanity. ",
         "portfolio": ""
+    }, 
+    "16": {
+        "name": "Kelly Yan", 
+        "pronouns": "she/her",
+        "committee": "Community Engagement", 
+        "school": "Brown", 
+        "bio": "Xinyu is a sophomore from Shanghai, studying anthropology and urban studies at Brown. She loves to observe human behaviors and study the cultural meaning of built structures on her long solitary walks. When she's not wandering with her camera, she spends copious amount of time sleeping and trying to remember her dreams.",
+        "portfolio": ""
+    },
+    "17": {
+        "name": "Yuheng He", 
+        "pronouns": "",
+        "committee": "Community Engagement", 
+        "school": "", 
+        "bio": "",
+        "portfolio": ""
+    },
+    "18": {
+        "name": "EK", 
+        "pronouns": "",
+        "committee": "Community Engagement", 
+        "school": "", 
+        "bio": "",
+        "portfolio": ""
     }
 }
