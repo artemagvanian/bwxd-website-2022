@@ -85,7 +85,7 @@
         "committee": "Development", 
         "school": "Brown", 
         "bio": "Christine is a sophomore at Brown studying Applied Mathematics-Computer Science. The fact that she is born in the same city as LeBron James and Stephen Curry sticks with people more than the fact that she is from Georgia -- she is not a fan of basketball. ",
-        "portfolio": ""
+        "portfolio": "https://www.linkedin.com/in/christine-jeong-4651931b3"
     },
     "11": {
         "name": "Alyssa Loo", 
@@ -161,7 +161,7 @@
     },
     "20": {
         "name": "Christie Sung", 
-        "pronouns": "",
+        "pronouns": "she/her",
         "committee": "Social Events", 
         "school": "RISD", 
         "bio": "Christie is a sophomore Industrial Design student at RISD concentrating in Nature Culture Sustainability. Raised in Southern California, Christie believes In-and-out hits the spot like no other burger can. In her free time, Christie loves cooking for her friends, exploring different restaurant, and making small jewelery. ",
@@ -174,5 +174,69 @@
         "school": "", 
         "bio": "",
         "portfolio": ""
+    }, 
+    "22": {
+        "name": "Ellie Kennedy", 
+        "pronouns": "she/her",
+        "committee": "Public Relations", 
+        "school": "Brown", 
+        "bio": "Ellie is a junior at Brown University from California studying Architecture and Urban Studies. She is passionate about designing for the future with an emphasis on sustainability, community, and innovative problem solving. Ellie is also closely involved with Brown Refugee Youth Tutoring and serves as a Meiklejohn Peer Advisor. Her ideal day involves long walks, good music, and exploring new restaurants (and taking pictures of all food!).",
+        "portfolio": "https://eleanorkennedy.myportfolio.com/"
+    }, 
+    "23": {
+        "name": "Rachael Kim", 
+        "pronouns": "",
+        "committee": "Public Relations", 
+        "school": "", 
+        "bio": "",
+        "portfolio": ""
+    }, 
+    "24": {
+        "name": "Ryan Yan", 
+        "pronouns": "",
+        "committee": "Graphics", 
+        "school": "", 
+        "bio": "",
+        "portfolio": ""
+    }, 
+    "25": {
+        "name": "Grace Chen", 
+        "pronouns": "she/her",
+        "committee": "Graphics", 
+        "school": "Brown", 
+        "bio": "Grace grew up in San Diego, California but has since ventured into the chilly east coast to attend Brown University where she is studying computer science and visual art. She likes to design fun spaces for social good and build things across all mediums – websites, paintings, communities. She hopes to pursue a career in UI/UX and eventually settle down in a small nation state of my own. Apart from her plans for world domination, she enjoys scribbling on a screen, shopping for snacks, and tending to her fish Blood-Orange III.",
+        "portfolio": "www.gracechen.io"
+    }, 
+    "26": {
+        "name": "Kayla Feng", 
+        "pronouns": "",
+        "committee": "Graphics", 
+        "school": "", 
+        "bio": "",
+        "portfolio": ""
+    }, 
+    "27": {
+        "name": "Artem Agvanian", 
+        "pronouns": "he/him",
+        "committee": "Web", 
+        "school": "Brown", 
+        "bio": "Artem is a Brown University freshman and a UWC Red Cross Nordic alumnus, who is enthusiastic about learning new things, especially in the area of computer science and its possible connections to other subject areas, such as politics, economics, or linguistics. Artem is fluent in 4 different languages, passionate about human rights activism, and appreciates diversity and its importance in education and building a peaceful future.",
+        "portfolio": "https://artemagvanian.me"
+    }, 
+    "28": {
+        "name": "Aanchal Sheth", 
+        "pronouns": "she/her",
+        "committee": "Web", 
+        "school": "Brown", 
+        "bio": "Aanchal is a junior at Brown University studying Computer Science and English who is very excited about the intersection between Tech, Business, and Design. She is very passionate about consumer-facing products and loves working with people. She's involved in feminist, theatre, and literary orgaisations at Brown. You'll find Aanchal obsessing over Spoken Word Poetry, sunflowers, and very ~bad~ puns.",
+        "portfolio": "https://www.aanchalsplayground.com/"
+    }, 
+    "29": {
+        "name": "Lauren Choi", 
+        "pronouns": "she/her",
+        "committee": "Web", 
+        "school": "Brown", 
+        "bio": "Lauren is a junior studying Computer Science at Brown University. California-born and Alabama-raised, Lauren believes “y’all” is the best word in the English language. In her free time, she loves hiking trails, baking coffee cake, and watching 2000’s rom-coms.",
+        "portfolio": "https://laurenjchoi.com"
     }
 }
