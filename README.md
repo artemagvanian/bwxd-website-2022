@@ -1,6 +1,6 @@
 # Better World By Design 2022 Website
 
-This is the main repository for the BWxD 2022 website.
+This is the main repository for the BWxD 2022 website!
 
 ## Folder Structure
 
