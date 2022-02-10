@@ -1,0 +1,27 @@
+{
+    "0": {
+        "name": "Emiliano Lopez", 
+        "pronouns": "he/him",
+        "company": "Project Protocol", 
+        "bio": "Emiliano Lopez is a justice advocate and an artist based in Los Angeles, CA. He is the founder of Project Protocol, an app that allows people on parole to anonymously rate their parole officers.He has a passion for art and social justice. His artwork was included in Future IDs at Alcatraz (2018-2019), an exhibition about justice reform and second chances.",
+        "website": "https://www.google.com/",
+        "image": null
+    },
+    "1": {
+        "name": "Anna Lee", 
+        "pronouns": "she/her",
+        "company": "Lioness", 
+        "bio": "Anna Lee, is a technical co-founder of Lioness, the women-led sexual wellness company that built the world's first and only smart vibrator that improves understanding of sexual pleasure and orgasms through biofeedback data and science. Anna was previously a mechanical engineer at Amazon, launching the Amazon Dash Button’s original concept and the Kindle Voyage Page Press Technology. She has most recently been named Forbes 30 Under 30 as well as Paper Magazine's Asian Women Creators You Need to Know. She is a big advocate in Lioness’s mission to expand understanding and research in sexual health, and destigmatize female sexuality.Anna has a B.S in Mechanical Engineering from UC Berkeley and currently resides in the Bay Area.",
+        "website": "https://www.google.com/",
+        "image": null
+    },
+    "2": {
+        "name": "XYZ", 
+        "pronouns": "they/them",
+        "company": "Project Protocol", 
+        "bio": "Trial Trial text",
+        "website": "https://www.google.com/",
+        "image": null
+    }
+}
+    

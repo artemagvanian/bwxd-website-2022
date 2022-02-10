@@ -11,6 +11,32 @@
     padding: 10rem 4rem 6rem 4rem;
 }
 
+/*** HOME ***/
+.mainName{
+    text-align: center;
+     padding: 3rem;
+     margin: 2rem;
+     font-size: 4rem;
+}
+
+.mainGraphic{
+    //display: flex;
+     justify-content: space-evenly;
+     text-align: center;
+     padding: 3rem;
+    background-color: gold;
+    height: 40rem;
+    margin: 2rem;
+}
+
+.conferenceCaption{
+    padding: 3rem;
+    text-align: center;
+    color: white;
+    background-color: rgb(56, 50, 18);
+
+}
+
 /*** TEAM ***/
 
 .team-row {
@@ -36,7 +62,7 @@
             margin: 1rem 0.5rem 0.5rem 0.5rem;
         }
 
-        .committee, .school {
+        .committee, .school, .company, .pronouns {
             margin: 0.5rem;
         }
     }
