@@ -6,6 +6,7 @@ import { About } from "./views/About";
 import Team from "./views/Team";
 import { Sponsors } from "./views/Sponsors";
 import { LottieView } from "./views/LottieView";
+import { ThreeView } from "./views/ThreeView";
 import React from "react";
 
 export function App() {
@@ -29,6 +30,7 @@ export function App() {
         <Route path="team" element={<Team />} />
         <Route path="sponsors" element={<Sponsors />} />
         <Route path="lottie" element={<LottieView />} />
+        <Route path="three" element={<ThreeView />} />
       </Routes>
     </div>
   );
