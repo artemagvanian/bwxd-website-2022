@@ -1,3 +1,3 @@
 export function Sponsors() {
-    return <h1>Sponsors</h1>;
+  return <h1>Sponsors</h1>;
 }

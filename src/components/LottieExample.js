@@ -6,11 +6,11 @@ import lottie from "lottie-web";
 const AnimationContainer = styled.div`
   width: 500px;
   height: 500px;
-`
+`;
 
 export const LottieAnimation = () => {
   const container = useRef(null);
-  
+
   useEffect(() => {
     const animationObject = lottie.loadAnimation({
       container: container.current,
@@ -22,5 +22,5 @@ export const LottieAnimation = () => {
     animationObject.play();
   });
 
-  return <AnimationContainer ref={container}></AnimationContainer>
+  return <AnimationContainer ref={container}></AnimationContainer>;
 };

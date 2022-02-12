@@ -1,242 +1,242 @@
 {
-    "0": {
-        "name": "Helen Peng", 
-        "pronouns": "she/her",
-        "committee": "Co-chair", 
-        "school": "Brown", 
-        "bio": "Helen is a junior at Brown University studying Cognitive Science and Visual Arts with the intention of pursuing UX research and design. Helen is driven by using design to amplify voices, especially through fields of sextech, femtech, health, amd medical device design. Helen is from Starkville, MS, and when she isn't trying to convince engineers of the importance of design, she's probably eating tangerines, drawing random people, or hyperfixating on her google calendar.",
-        "portfolio": "helenpeng.me"
-    },
-    "1": {
-        "name": "Sofia Di Lodovico", 
-        "pronouns": "she/her",
-        "committee": "Co-chair", 
-        "school": "RISD", 
-        "bio": "Sofia is an industrial design student at RISD, graduating in the class of 2023. She is passionate about creating useful, sustainable, and ethical human-centered design. As a process centered designer, Sofia's work is deeply grounded in research and analyzing the effects designs create. A fashion aficionado, Sofia is a huge fan of oversized earrings and never leaves her room without a to do list and a sketchbook.",
-        "portfolio": "https://sofiadilodovico.com/work"
-    },
-    "2": {
-        "name": "Selena Yang", 
-        "pronouns": "she/her",
-        "committee": "Co-chair", 
-        "school": "RISD", 
-        "bio": "Selena is a junior @ RISD, studying Industrial Design and also concentrating in Computation. As a human centered designer, she wants to design sustainable, innovative, but practical solutions. Furthermore, she also loves using the computer as a design tool, and she would love to show you photos her labrador retriever puppy named Benji.",
-        "portfolio": "selena-yang.com"
-    },
-    "3": {
-        "name": "Amy Zhu", 
-        "pronouns": "she/her",
-        "committee": "Content", 
-        "school": "RISD", 
-        "bio": "Amy is an Industrial Design student at RISD graduating class of 2023. Born and raised in Boston, she firmly believes that Dunkin Donuts is better than Starbucks. She like to explore ways thoughtful design can make innovative but unapproachable technology accessible to the general public. In her free time, Amy likes to use her material scraps to create fun knick knacks for her friends and family. (However, more likely than not, she is actually sleeping).  ",
-        "portfolio": "https://azhu3250.myportfolio.com/"
-    },
-    "4": {
-        "name": "Alex Hogue", 
-        "pronouns": "she/her",
-        "committee": "Content", 
-        "school": "Brown + RISD", 
-        "bio": "Alex is a first year Brown|RISD dual-degree student studying Computer Science at Brown and Illustration at RISD. She is passionate about exploring the intersections of art and science through technology. Alex loves learning new things, and when she isn’t trying to learn everything she can about obscure scientific topics or memorizing world geography, she enjoys figure skating, trying out new cafés, and going on peaceful strolls during the Providence blizzards.  ",
-        "portfolio": "alexandrarhogue.squarespace.com "
-    },
-    "5": {
-        "name": "Jesse Hogan", 
-        "pronouns": "he/him",
-        "committee": "Content", 
-        "school": "Brown", 
-        "bio": "Jesse is a sophomore at Brown from Massachusetts. Cities—and specifically the people and communities inhabiting them—have always inspired him. Studying Architecture and International and Public Affairs, he is fascinated by the role of art, architecture, urban planning, and design in disrupting and reimagining power structures. When he's not complaining about being from the suburbs, you can find him taking runs around Providence, sharing his niche knowledge about Latin and ancient Rome, and romanticizing his life through the lens of his film camera.",
-        "portfolio": "jessejhogan.com"
-    },
-    "6": {
-        "name": "Natalia Silva", 
-        "pronouns": "she/they",
-        "committee": "Content", 
-        "school": "RISD", 
-        "bio": "Natalia is an architect from Bogotá, Colombia currently studying at RISD as a graduate student. They are an MDes candidate in the department of Interior Architecture with a focus in Narrative Environments and Exhibition Design. After working in the interior design sector, Natalia realized they wanted to combine their passion for interiors with their love of museums -- specifically art museums -- and their interest for graphic design. They are very excited to have found that those three overlap in their current program. Natalia aspires to also find ways to incorporate some of their other interests into architecture through the field of exhibition (i.e. queer activism, feminist theory, and alternative spiritual practices). ",
-        "portfolio": ""
-    },
-    "7": {
-        "name": "Henry Ding", 
-        "pronouns": "he/him",
-        "committee": "Content", 
-        "school": "RISD", 
-        "bio": "Henry is a freshman hailing from Toronto, Canada. He's planning on studying Architecture and is thus always fascinated by the built world around him. Where is the intersection of politics, urbanism, and design? How do we frame and contextualize perspectives around architecture to serve and promote greater equity in communities? He also enjoys the implementation of design in Lego, Animal Crossing, and Minecraft. They're truly the way to his heart alongside good food, chunky animals, reading, and staring at atlases.",
-        "portfolio": "henryding.webflow.io"
-    },
-    "8": {
-        "name": "Malika Abbajebel", 
-        "pronouns": "",
-        "committee": "Content", 
-        "school": "", 
-        "bio": "",
-        "portfolio": ""
-    },
-    "9": {
-        "name": "Ryan Peng", 
-        "pronouns": "he/him",
-        "committee": "Development", 
-        "school": "Brown", 
-        "bio": "Ryan is a first-year at Brown University studying Design Engineering. With a background in technical theatre, he is most interested in the physical experience of design and broadly seeks to make everyday, ritualistic interactions more purposeful. Currently, in his free time, he tries to understand what goes on west of Benefit Street.",
-        "portfolio": "ryanzpeng.com"
-    },
-    "10": {
-        "name": "Christine Jeong", 
-        "pronouns": "she/her",
-        "committee": "Development", 
-        "school": "Brown", 
-        "bio": "Christine is a sophomore at Brown studying Applied Mathematics-Computer Science. The fact that she is born in the same city as LeBron James and Stephen Curry sticks with people more than the fact that she is from Georgia -- she is not a fan of basketball. ",
-        "portfolio": "https://www.linkedin.com/in/christine-jeong-4651931b3"
-    },
-    "11": {
-        "name": "Alyssa Loo", 
-        "pronouns": "she/her",
-        "committee": "Development", 
-        "school": "Brown", 
-        "bio": "Alyssa is a sophomore at Brown University from Singapore, studying Linguistics and Computer Science. She is endlessly curious about the invisible systems that run our lives, whether that be cognitive processes in our brains or the magic of very good design. She is often found either very vertically climbing on bouldering walls or very horizontally napping on her bed.",
-        "portfolio": "https://sg.linkedin.com/in/alyssamarieloo"
-    },
-    "12": {
-        "name": "Rebecca Bowers", 
-        "pronouns": "she/her",
-        "committee": "Operations and Sustainability", 
-        "school": "Brown", 
-        "bio": "Rebecca is a sophomore at Brown University studying Applied Math and Architecture. She is motivated to design spaces that prioritize the environment and create spacial justice. At Brown, Rebecca plays the violin in the orchestra and is a member of club tennis. She is from Durango, CO, and enjoys skiing (in the West), running, and showing off her dog Coco. ",
-        "portfolio": ""
-    },
-    "13": {
-        "name": "Will Allstetter", 
-        "pronouns": "he/him",
-        "committee": "Operations and Sustainability", 
-        "school": "Brown", 
-        "bio": "Will is a junior at Brown from Colorado studying computer science and English. While he isn't trying to parse out how language and technology interact, he enjoys scouring Google Earth, reading (send recommendations!), and spending time outside.",
-        "portfolio": "willallstetter.com"
-    },
-    "14": {
-        "name": "Ju Yeon (JoAnne) Lee", 
-        "pronouns": "she/her",
-        "committee": "Operations and Sustainability", 
-        "school": "RISD", 
-        "bio": "JoAnne is currently in her third year, earning BFA in Textiles, at Rhode Island School of Design. In her artistic practice, she enjoys many hands-on crafting. She plans on exploring more expression of visual communication, not constricting herself to a specific medium or subject. Her passion in science has greatly influenced her to bring more awareness to sustainable production and consumption. Favorite fiber is extra fine merino wool. She loves cafes and bars.",
-        "portfolio": "juyeonjoanne.myportfolio.com"
-    },
-    "15": {
-        "name": "Yihan Wang", 
-        "pronouns": "",
-        "committee": "Operations and Sustainability", 
-        "school": "RISD", 
-        "bio": "Yihan is a freshman from Rhode Island School of Design from China, studying industrial design. She is very interested in interdisciplinary topics, and is passionate about exploring the intersection of art, science and humanity. ",
-        "portfolio": ""
-    }, 
-    "16": {
-        "name": "Kelly Yan", 
-        "pronouns": "she/her",
-        "committee": "Community Engagement", 
-        "school": "Brown", 
-        "bio": "Xinyu is a sophomore from Shanghai, studying anthropology and urban studies at Brown. She loves to observe human behaviors and study the cultural meaning of built structures on her long solitary walks. When she's not wandering with her camera, she spends copious amount of time sleeping and trying to remember her dreams.",
-        "portfolio": ""
-    },
-    "17": {
-        "name": "Yuheng He", 
-        "pronouns": "",
-        "committee": "Community Engagement", 
-        "school": "", 
-        "bio": "",
-        "portfolio": ""
-    },
-    "18": {
-        "name": "EK", 
-        "pronouns": "",
-        "committee": "Community Engagement", 
-        "school": "", 
-        "bio": "",
-        "portfolio": ""
-    }, 
-    "19": {
-        "name": "Raphael Li", 
-        "pronouns": "he/him",
-        "committee": "Social Events", 
-        "school": "Brown", 
-        "bio": "Raphael is a sophomore at Brown University studying Computer Science. He is from the greatest place on Earth: Carmel, Indiana. As an avid member of the Brown community, Raphael can been seen taking long walks looking for an open table in the dining hall and waiting in line for a weekend burrito. He is also lactose intolerant.",
-        "portfolio": ""
-    },
-    "20": {
-        "name": "Christie Sung", 
-        "pronouns": "she/her",
-        "committee": "Social Events", 
-        "school": "RISD", 
-        "bio": "Christie is a sophomore Industrial Design student at RISD concentrating in Nature Culture Sustainability. Raised in Southern California, Christie believes In-and-out hits the spot like no other burger can. In her free time, Christie loves cooking for her friends, exploring different restaurant, and making small jewelery. ",
-        "portfolio": ""
-    },
-    "21": {
-        "name": "Nicole Nedeff", 
-        "pronouns": "",
-        "committee": "Social Events", 
-        "school": "", 
-        "bio": "",
-        "portfolio": ""
-    }, 
-    "22": {
-        "name": "Ellie Kennedy", 
-        "pronouns": "she/her",
-        "committee": "Public Relations", 
-        "school": "Brown", 
-        "bio": "Ellie is a junior at Brown University from California studying Architecture and Urban Studies. She is passionate about designing for the future with an emphasis on sustainability, community, and innovative problem solving. Ellie is also closely involved with Brown Refugee Youth Tutoring and serves as a Meiklejohn Peer Advisor. Her ideal day involves long walks, good music, and exploring new restaurants (and taking pictures of all food!).",
-        "portfolio": "https://eleanorkennedy.myportfolio.com/"
-    }, 
-    "23": {
-        "name": "Rachael Kim", 
-        "pronouns": "",
-        "committee": "Public Relations", 
-        "school": "", 
-        "bio": "",
-        "portfolio": ""
-    }, 
-    "24": {
-        "name": "Ryan Yan", 
-        "pronouns": "",
-        "committee": "Graphics", 
-        "school": "", 
-        "bio": "",
-        "portfolio": ""
-    }, 
-    "25": {
-        "name": "Grace Chen", 
-        "pronouns": "she/her",
-        "committee": "Graphics", 
-        "school": "Brown", 
-        "bio": "Grace grew up in San Diego, California but has since ventured into the chilly east coast to attend Brown University where she is studying computer science and visual art. She likes to design fun spaces for social good and build things across all mediums – websites, paintings, communities. She hopes to pursue a career in UI/UX and eventually settle down in a small nation state of my own. Apart from her plans for world domination, she enjoys scribbling on a screen, shopping for snacks, and tending to her fish Blood-Orange III.",
-        "portfolio": "www.gracechen.io"
-    }, 
-    "26": {
-        "name": "Kayla Feng", 
-        "pronouns": "",
-        "committee": "Graphics", 
-        "school": "", 
-        "bio": "",
-        "portfolio": ""
-    }, 
-    "27": {
-        "name": "Artem Agvanian", 
-        "pronouns": "he/him",
-        "committee": "Web", 
-        "school": "Brown", 
-        "bio": "Artem is a Brown University freshman and a UWC Red Cross Nordic alumnus, who is enthusiastic about learning new things, especially in the area of computer science and its possible connections to other subject areas, such as politics, economics, or linguistics. Artem is fluent in 4 different languages, passionate about human rights activism, and appreciates diversity and its importance in education and building a peaceful future.",
-        "portfolio": "https://artemagvanian.me"
-    }, 
-    "28": {
-        "name": "Aanchal Sheth", 
-        "pronouns": "she/her",
-        "committee": "Web", 
-        "school": "Brown", 
-        "bio": "Aanchal is a junior at Brown University studying Computer Science and English who is very excited about the intersection between Tech, Business, and Design. She is very passionate about consumer-facing products and loves working with people. She's involved in feminist, theatre, and literary organizations at Brown. You'll find Aanchal obsessing over Spoken Word Poetry, sunflowers, and very ~bad~ puns.",
-        "portfolio": "https://www.aanchalsplayground.com/"
-    }, 
-    "29": {
-        "name": "Lauren Choi", 
-        "pronouns": "she/her",
-        "committee": "Web", 
-        "school": "Brown", 
-        "bio": "Lauren is a junior studying Computer Science at Brown University. California-born and Alabama-raised, Lauren believes “y’all” is the best word in the English language. In her free time, she loves hiking trails, baking coffee cake, and watching 2000’s rom-coms.",
-        "portfolio": "https://laurenjchoi.com"
-    }
+  "0": {
+    "name": "Helen Peng",
+    "pronouns": "she/her",
+    "committee": "Co-chair",
+    "school": "Brown",
+    "bio": "Helen is a junior at Brown University studying Cognitive Science and Visual Arts with the intention of pursuing UX research and design. Helen is driven by using design to amplify voices, especially through fields of sextech, femtech, health, amd medical device design. Helen is from Starkville, MS, and when she isn't trying to convince engineers of the importance of design, she's probably eating tangerines, drawing random people, or hyperfixating on her google calendar.",
+    "portfolio": "helenpeng.me"
+  },
+  "1": {
+    "name": "Sofia Di Lodovico",
+    "pronouns": "she/her",
+    "committee": "Co-chair",
+    "school": "RISD",
+    "bio": "Sofia is an industrial design student at RISD, graduating in the class of 2023. She is passionate about creating useful, sustainable, and ethical human-centered design. As a process centered designer, Sofia's work is deeply grounded in research and analyzing the effects designs create. A fashion aficionado, Sofia is a huge fan of oversized earrings and never leaves her room without a to do list and a sketchbook.",
+    "portfolio": "https://sofiadilodovico.com/work"
+  },
+  "2": {
+    "name": "Selena Yang",
+    "pronouns": "she/her",
+    "committee": "Co-chair",
+    "school": "RISD",
+    "bio": "Selena is a junior @ RISD, studying Industrial Design and also concentrating in Computation. As a human centered designer, she wants to design sustainable, innovative, but practical solutions. Furthermore, she also loves using the computer as a design tool, and she would love to show you photos her labrador retriever puppy named Benji.",
+    "portfolio": "selena-yang.com"
+  },
+  "3": {
+    "name": "Amy Zhu",
+    "pronouns": "she/her",
+    "committee": "Content",
+    "school": "RISD",
+    "bio": "Amy is an Industrial Design student at RISD graduating class of 2023. Born and raised in Boston, she firmly believes that Dunkin Donuts is better than Starbucks. She like to explore ways thoughtful design can make innovative but unapproachable technology accessible to the general public. In her free time, Amy likes to use her material scraps to create fun knick knacks for her friends and family. (However, more likely than not, she is actually sleeping).  ",
+    "portfolio": "https://azhu3250.myportfolio.com/"
+  },
+  "4": {
+    "name": "Alex Hogue",
+    "pronouns": "she/her",
+    "committee": "Content",
+    "school": "Brown + RISD",
+    "bio": "Alex is a first year Brown|RISD dual-degree student studying Computer Science at Brown and Illustration at RISD. She is passionate about exploring the intersections of art and science through technology. Alex loves learning new things, and when she isn’t trying to learn everything she can about obscure scientific topics or memorizing world geography, she enjoys figure skating, trying out new cafés, and going on peaceful strolls during the Providence blizzards.  ",
+    "portfolio": "alexandrarhogue.squarespace.com "
+  },
+  "5": {
+    "name": "Jesse Hogan",
+    "pronouns": "he/him",
+    "committee": "Content",
+    "school": "Brown",
+    "bio": "Jesse is a sophomore at Brown from Massachusetts. Cities—and specifically the people and communities inhabiting them—have always inspired him. Studying Architecture and International and Public Affairs, he is fascinated by the role of art, architecture, urban planning, and design in disrupting and reimagining power structures. When he's not complaining about being from the suburbs, you can find him taking runs around Providence, sharing his niche knowledge about Latin and ancient Rome, and romanticizing his life through the lens of his film camera.",
+    "portfolio": "jessejhogan.com"
+  },
+  "6": {
+    "name": "Natalia Silva",
+    "pronouns": "she/they",
+    "committee": "Content",
+    "school": "RISD",
+    "bio": "Natalia is an architect from Bogotá, Colombia currently studying at RISD as a graduate student. They are an MDes candidate in the department of Interior Architecture with a focus in Narrative Environments and Exhibition Design. After working in the interior design sector, Natalia realized they wanted to combine their passion for interiors with their love of museums -- specifically art museums -- and their interest for graphic design. They are very excited to have found that those three overlap in their current program. Natalia aspires to also find ways to incorporate some of their other interests into architecture through the field of exhibition (i.e. queer activism, feminist theory, and alternative spiritual practices). ",
+    "portfolio": ""
+  },
+  "7": {
+    "name": "Henry Ding",
+    "pronouns": "he/him",
+    "committee": "Content",
+    "school": "RISD",
+    "bio": "Henry is a freshman hailing from Toronto, Canada. He's planning on studying Architecture and is thus always fascinated by the built world around him. Where is the intersection of politics, urbanism, and design? How do we frame and contextualize perspectives around architecture to serve and promote greater equity in communities? He also enjoys the implementation of design in Lego, Animal Crossing, and Minecraft. They're truly the way to his heart alongside good food, chunky animals, reading, and staring at atlases.",
+    "portfolio": "henryding.webflow.io"
+  },
+  "8": {
+    "name": "Malika Abbajebel",
+    "pronouns": "",
+    "committee": "Content",
+    "school": "",
+    "bio": "",
+    "portfolio": ""
+  },
+  "9": {
+    "name": "Ryan Peng",
+    "pronouns": "he/him",
+    "committee": "Development",
+    "school": "Brown",
+    "bio": "Ryan is a first-year at Brown University studying Design Engineering. With a background in technical theatre, he is most interested in the physical experience of design and broadly seeks to make everyday, ritualistic interactions more purposeful. Currently, in his free time, he tries to understand what goes on west of Benefit Street.",
+    "portfolio": "ryanzpeng.com"
+  },
+  "10": {
+    "name": "Christine Jeong",
+    "pronouns": "she/her",
+    "committee": "Development",
+    "school": "Brown",
+    "bio": "Christine is a sophomore at Brown studying Applied Mathematics-Computer Science. The fact that she is born in the same city as LeBron James and Stephen Curry sticks with people more than the fact that she is from Georgia -- she is not a fan of basketball. ",
+    "portfolio": "https://www.linkedin.com/in/christine-jeong-4651931b3"
+  },
+  "11": {
+    "name": "Alyssa Loo",
+    "pronouns": "she/her",
+    "committee": "Development",
+    "school": "Brown",
+    "bio": "Alyssa is a sophomore at Brown University from Singapore, studying Linguistics and Computer Science. She is endlessly curious about the invisible systems that run our lives, whether that be cognitive processes in our brains or the magic of very good design. She is often found either very vertically climbing on bouldering walls or very horizontally napping on her bed.",
+    "portfolio": "https://sg.linkedin.com/in/alyssamarieloo"
+  },
+  "12": {
+    "name": "Rebecca Bowers",
+    "pronouns": "she/her",
+    "committee": "Operations and Sustainability",
+    "school": "Brown",
+    "bio": "Rebecca is a sophomore at Brown University studying Applied Math and Architecture. She is motivated to design spaces that prioritize the environment and create spacial justice. At Brown, Rebecca plays the violin in the orchestra and is a member of club tennis. She is from Durango, CO, and enjoys skiing (in the West), running, and showing off her dog Coco. ",
+    "portfolio": ""
+  },
+  "13": {
+    "name": "Will Allstetter",
+    "pronouns": "he/him",
+    "committee": "Operations and Sustainability",
+    "school": "Brown",
+    "bio": "Will is a junior at Brown from Colorado studying computer science and English. While he isn't trying to parse out how language and technology interact, he enjoys scouring Google Earth, reading (send recommendations!), and spending time outside.",
+    "portfolio": "willallstetter.com"
+  },
+  "14": {
+    "name": "Ju Yeon (JoAnne) Lee",
+    "pronouns": "she/her",
+    "committee": "Operations and Sustainability",
+    "school": "RISD",
+    "bio": "JoAnne is currently in her third year, earning BFA in Textiles, at Rhode Island School of Design. In her artistic practice, she enjoys many hands-on crafting. She plans on exploring more expression of visual communication, not constricting herself to a specific medium or subject. Her passion in science has greatly influenced her to bring more awareness to sustainable production and consumption. Favorite fiber is extra fine merino wool. She loves cafes and bars.",
+    "portfolio": "juyeonjoanne.myportfolio.com"
+  },
+  "15": {
+    "name": "Yihan Wang",
+    "pronouns": "",
+    "committee": "Operations and Sustainability",
+    "school": "RISD",
+    "bio": "Yihan is a freshman from Rhode Island School of Design from China, studying industrial design. She is very interested in interdisciplinary topics, and is passionate about exploring the intersection of art, science and humanity. ",
+    "portfolio": ""
+  },
+  "16": {
+    "name": "Kelly Yan",
+    "pronouns": "she/her",
+    "committee": "Community Engagement",
+    "school": "Brown",
+    "bio": "Xinyu is a sophomore from Shanghai, studying anthropology and urban studies at Brown. She loves to observe human behaviors and study the cultural meaning of built structures on her long solitary walks. When she's not wandering with her camera, she spends copious amount of time sleeping and trying to remember her dreams.",
+    "portfolio": ""
+  },
+  "17": {
+    "name": "Yuheng He",
+    "pronouns": "",
+    "committee": "Community Engagement",
+    "school": "",
+    "bio": "",
+    "portfolio": ""
+  },
+  "18": {
+    "name": "EK",
+    "pronouns": "",
+    "committee": "Community Engagement",
+    "school": "",
+    "bio": "",
+    "portfolio": ""
+  },
+  "19": {
+    "name": "Raphael Li",
+    "pronouns": "he/him",
+    "committee": "Social Events",
+    "school": "Brown",
+    "bio": "Raphael is a sophomore at Brown University studying Computer Science. He is from the greatest place on Earth: Carmel, Indiana. As an avid member of the Brown community, Raphael can been seen taking long walks looking for an open table in the dining hall and waiting in line for a weekend burrito. He is also lactose intolerant.",
+    "portfolio": ""
+  },
+  "20": {
+    "name": "Christie Sung",
+    "pronouns": "she/her",
+    "committee": "Social Events",
+    "school": "RISD",
+    "bio": "Christie is a sophomore Industrial Design student at RISD concentrating in Nature Culture Sustainability. Raised in Southern California, Christie believes In-and-out hits the spot like no other burger can. In her free time, Christie loves cooking for her friends, exploring different restaurant, and making small jewelery. ",
+    "portfolio": ""
+  },
+  "21": {
+    "name": "Nicole Nedeff",
+    "pronouns": "",
+    "committee": "Social Events",
+    "school": "",
+    "bio": "",
+    "portfolio": ""
+  },
+  "22": {
+    "name": "Ellie Kennedy",
+    "pronouns": "she/her",
+    "committee": "Public Relations",
+    "school": "Brown",
+    "bio": "Ellie is a junior at Brown University from California studying Architecture and Urban Studies. She is passionate about designing for the future with an emphasis on sustainability, community, and innovative problem solving. Ellie is also closely involved with Brown Refugee Youth Tutoring and serves as a Meiklejohn Peer Advisor. Her ideal day involves long walks, good music, and exploring new restaurants (and taking pictures of all food!).",
+    "portfolio": "https://eleanorkennedy.myportfolio.com/"
+  },
+  "23": {
+    "name": "Rachael Kim",
+    "pronouns": "",
+    "committee": "Public Relations",
+    "school": "",
+    "bio": "",
+    "portfolio": ""
+  },
+  "24": {
+    "name": "Ryan Yan",
+    "pronouns": "",
+    "committee": "Graphics",
+    "school": "",
+    "bio": "",
+    "portfolio": ""
+  },
+  "25": {
+    "name": "Grace Chen",
+    "pronouns": "she/her",
+    "committee": "Graphics",
+    "school": "Brown",
+    "bio": "Grace grew up in San Diego, California but has since ventured into the chilly east coast to attend Brown University where she is studying computer science and visual art. She likes to design fun spaces for social good and build things across all mediums – websites, paintings, communities. She hopes to pursue a career in UI/UX and eventually settle down in a small nation state of my own. Apart from her plans for world domination, she enjoys scribbling on a screen, shopping for snacks, and tending to her fish Blood-Orange III.",
+    "portfolio": "www.gracechen.io"
+  },
+  "26": {
+    "name": "Kayla Feng",
+    "pronouns": "",
+    "committee": "Graphics",
+    "school": "",
+    "bio": "",
+    "portfolio": ""
+  },
+  "27": {
+    "name": "Artem Agvanian",
+    "pronouns": "he/him",
+    "committee": "Web",
+    "school": "Brown",
+    "bio": "Artem is a Brown University freshman and a UWC Red Cross Nordic alumnus, who is enthusiastic about learning new things, especially in the area of computer science and its possible connections to other subject areas, such as politics, economics, or linguistics. Artem is fluent in 4 different languages, passionate about human rights activism, and appreciates diversity and its importance in education and building a peaceful future.",
+    "portfolio": "https://artemagvanian.me"
+  },
+  "28": {
+    "name": "Aanchal Sheth",
+    "pronouns": "she/her",
+    "committee": "Web",
+    "school": "Brown",
+    "bio": "Aanchal is a junior at Brown University studying Computer Science and English who is very excited about the intersection between Tech, Business, and Design. She is very passionate about consumer-facing products and loves working with people. She's involved in feminist, theatre, and literary organizations at Brown. You'll find Aanchal obsessing over Spoken Word Poetry, sunflowers, and very ~bad~ puns.",
+    "portfolio": "https://www.aanchalsplayground.com/"
+  },
+  "29": {
+    "name": "Lauren Choi",
+    "pronouns": "she/her",
+    "committee": "Web",
+    "school": "Brown",
+    "bio": "Lauren is a junior studying Computer Science at Brown University. California-born and Alabama-raised, Lauren believes “y’all” is the best word in the English language. In her free time, she loves hiking trails, baking coffee cake, and watching 2000’s rom-coms.",
+    "portfolio": "https://laurenjchoi.com"
+  }
 }
