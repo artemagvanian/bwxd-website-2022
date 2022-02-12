@@ -5,6 +5,7 @@ import { Home } from "./views/Home";
 import { About } from "./views/About";
 import Team from "./views/Team";
 import { Sponsors } from "./views/Sponsors";
+import { LottieView } from './views/LottieView';
 import React from 'react';
 
 export function App() {
@@ -24,6 +25,7 @@ export function App() {
 				<Route path="about" element={<About />} />
 				<Route path="team" element={<Team />} />
 				<Route path="sponsors" element={<Sponsors />} />
+				<Route path="lottie" element={<LottieView />} />
 			</Routes>
 		</div>
 	);
