@@ -26,15 +26,15 @@ function Team() {
     setState({
       ...state,
       show: true,
-      name: profiles[0].name,
-      committee: profiles[0].committee,
-      school: profiles[0].school,
-      bio: profiles[0].bio,
+      name: profiles[id].name,
+      committee: profiles[id].committee,
+      school: profiles[id].school,
+      bio: profiles[id].bio,
     });
 
   const renderIndividual = (id) => {
     return (
-      <div className="individual" onClick={() => handleShow(0)}>
+      <div className="individual" onClick={() => handleShow(id)}>
         <img src={logo} className="pic" />
         <h2 className="name">{profiles[id].name}</h2>
         <p className="committee">{profiles[id].committee}</p>
