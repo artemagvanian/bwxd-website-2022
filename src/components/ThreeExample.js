@@ -1,7 +1,7 @@
 import React, { useRef, useState, Suspense } from "react";
 import { Canvas, useFrame, useLoader } from "@react-three/fiber";
-import { OBJLoader } from "three/examples/jsm/loaders/OBJLoader";
-import froggy from "url:../assets/froggy.obj";
+import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
+import mascot from "url:../assets/mascot.glb";
 
 function Box(props) {
   const ref = useRef();
@@ -27,12 +27,14 @@ function Box(props) {
 }
 
 function Scene() {
-  const obj = useLoader(OBJLoader, froggy);
+  const obj = useLoader(GLTFLoader, mascot);
   const ref = useRef();
 
   useFrame((state, delta) => (ref.current.rotation.x += 0.01));
 
-  return <primitive ref={ref} object={obj} rotation={[Math.PI / 2, 0, 0]} />;
+  return (
+    <primitive ref={ref} object={obj.scene} rotation={[Math.PI / 2, 0, 0]} />
+  );
 }
 
 export function ThreeExample() {
