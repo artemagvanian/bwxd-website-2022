@@ -3,6 +3,7 @@ import logo from "../assets/logo2019.png";
 import { Modal, Button } from "react-bootstrap";
 import React, { useState, useEffect } from "react";
 import profiles from "../data/speakerbios.json";
+import Spline from "@splinetool/react-spline";
 
 export function Home() {
   const [state, setState] = useState({
@@ -66,8 +67,11 @@ export function Home() {
 
   return (
     <div>
-      <div className="mainGraphic">
+      {/* <div className="mainGraphic">
         <div className="mainName">re-frame</div>
+      </div> */}
+      <div>
+        <Spline scene="https://draft.spline.design/ZbASjnoB7j5aSWmt/scene.spline" />
       </div>
       <div className="conferenceCaption">
         CAPTION: Knitting together the fabric of our world, seams hold together
