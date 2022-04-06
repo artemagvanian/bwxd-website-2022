@@ -1,0 +1,9 @@
+.homeCell,
+.homeTriangle {
+  background-color: #fefced;
+  border-color: #31788e;
+}
+
+.homeTriangle {
+  fill: #31788e;
+}
