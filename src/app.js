@@ -7,7 +7,7 @@ import React from "react";
 
 export function App() {
   return (
-    <div className="App">
+    <div>
       <Link to="/">Home</Link>
       <Link to="/about">About</Link>
       <Link to="/sponsors">Sponsors</Link>

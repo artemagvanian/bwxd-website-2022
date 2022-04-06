@@ -1,0 +1,11 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+}
+
+.cell,
+.triangle {
+  border-width: 1px;
+  border-style: solid;
+  aspect-ratio: 1;
+}
