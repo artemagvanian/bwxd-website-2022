@@ -71,7 +71,10 @@ export function Home() {
         <div className="mainName">re-frame</div>
       </div> */}
       <div>
-        <Spline scene="https://draft.spline.design/ZbASjnoB7j5aSWmt/scene.spline" />
+        <Spline scene="https://draft.spline.design/kTfhXF4EY-C1ppF6/scene.spline" />
+      </div>
+      <div className="spline-background">
+        <Spline scene="https://prod.spline.design/b1UMZ0OW-nbQrlY6/scene.spline" />
       </div>
       <div className="conferenceCaption">
         CAPTION: Knitting together the fabric of our world, seams hold together
