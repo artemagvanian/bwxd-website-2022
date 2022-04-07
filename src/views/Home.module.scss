@@ -1,0 +1,91 @@
+.homeCell,
+.whyReframe,
+.goal,
+.bigTriangle,
+.context,
+.how,
+.applications {
+  background-color: #fefced;
+  border-color: #2d2ff5;
+}
+
+.whyReframe,
+.goal,
+.context,
+.how,
+.applications {
+  border-width: 1px;
+  border-style: solid;
+}
+
+.whyReframe {
+  grid-column: span 12;
+  h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 5em;
+    margin: 0 200px;
+    color: #2d2ff5;
+  }
+}
+
+.decorativeFigure {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.goal {
+  grid-column: span 6;
+  grid-row: span 2;
+  p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 1.125em;
+    margin: 25px;
+    color: #2d2ff5;
+    line-height: 22px;
+  }
+}
+
+.bigTriangle {
+  fill: #2d2ff5;
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.bigCell {
+  background-color: #2d2ff5;
+  border-color: #2d2ff5;
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.blueCell {
+  background-color: #2d2ff5;
+  border-color: #2d2ff5;
+}
+
+.context {
+  grid-column: span 12;
+  grid-row: span 4;
+  p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 3em;
+    line-height: 58px;
+    margin: 100px 150px 100px 40px;
+    max-width: 1000px;
+    text-align: right;
+    color: #2d2ff5;
+  }
+}
+
+.how {
+  grid-column: span 8;
+  grid-row: span 5;
+}
+
+.applications {
+  grid-column: span 7;
+  grid-row: span 2;
+}
