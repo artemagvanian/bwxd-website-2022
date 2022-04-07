@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "Glock Grotesque";
+  src: url("../assets/fonts/GlockGrotesque-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+
 .homeCell,
 .homeTriangle {
   background-color: #fefced;
@@ -6,4 +16,24 @@
 
 .homeTriangle {
   fill: #31788e;
+}
+
+.mainHeading {
+  font-family: "Glock Grotesque";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 127.312px;
+  line-height: 178px;
+  color: #31788e;
+  /* display:grid; */
+}
+
+.subHeading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 97px;
+  /* identical to box height */
+  color: #31788e;
 }

@@ -7,18 +7,22 @@ export function Sponsors() {
   return (
     <div>
       {" "}
-      <h1>sponsors</h1>
       <Grid>
-        {/* {_.times(15, (i) => (
-        <Triangle key={i} className={styles.homeTriangle} />
-      ))} */}
         {_.times(15, (i) => (
           <Cell key={i} className={styles.homeCell} />
         ))}
         {_.times(15, (i) => (
           <Cell key={i} className={styles.homeCell} />
         ))}
-        {_.times(2, (i) => (
+
+        {_.times(1, (i) => (
+          <Cell key={i} className={styles.homeCell} />
+        ))}
+      </Grid>
+      <div className={styles.mainHeading}>Sponsors</div>
+      <div className={styles.subHeading}>Why Sponsor Us?</div>
+      <Grid>
+        {_.times(1, (i) => (
           <Cell key={i} className={styles.homeCell} />
         ))}
       </Grid>

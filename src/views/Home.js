@@ -61,7 +61,7 @@ export function Home() {
       <NHomeCell n={15} />
       {/* row */}
       <div className={styles.whyReframe}>
-        <h1>Why Reframe?</h1>
+        <h1>Why Reframe?!!</h1>
       </div>
       <NHomeCell n={3} />
       {/* row */}
