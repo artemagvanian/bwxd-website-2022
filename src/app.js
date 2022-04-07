@@ -1,4 +1,5 @@
-import "bootstrap/dist/css/bootstrap.min.css";
+import "normalize.css";
+import "./App.css";
 import { Routes, Route, Link } from "react-router-dom";
 import { Home } from "./views/Home";
 import { About } from "./views/About";
