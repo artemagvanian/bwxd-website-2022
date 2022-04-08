@@ -16,11 +16,12 @@
 .applications {
   border-width: 1px;
   border-style: solid;
+  overflow: hidden;
 }
 
 .whyReframe {
   grid-column: span 12;
-  h1 {
+  h2 {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 5em;
@@ -83,9 +84,43 @@
 .how {
   grid-column: span 8;
   grid-row: span 5;
+  h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 3em;
+    line-height: 58px;
+    margin: 50px;
+    color: #2d2ff5;
+  }
+  p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 1.125em;
+    margin: 40px 150px 40px 50px;
+    color: #2d2ff5;
+    line-height: 22px;
+  }
 }
 
 .applications {
   grid-column: span 7;
   grid-row: span 2;
+  p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 1.125em;
+    margin: 40px 55px;
+    color: #2d2ff5;
+    text-align: right;
+    line-height: 22px;
+  }
+}
+
+.spline {
+  position: absolute;
+}
+
+.splineContainer {
+  position: relative;
+  overflow: hidden;
 }
