@@ -1,0 +1,45 @@
+.nav {
+  height: 150px;
+  display: flex;
+  background-color: #FEFCED;
+  align-items: center;
+  justify-content: end;
+  padding: 0 80px;
+  border-color: #2D2FF5;
+  border-width: 0px 1px 1px 1px;
+  border-style: solid;
+}
+
+.logo {
+  margin-right: auto;
+  img {
+    width: 70px;
+  }
+}
+
+.link {
+  font-family: 'Glock';
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  margin-left: 30px;
+  text-decoration: none;
+  color: #2D2FF5;
+  padding: 18px;
+  border: 2px solid transparent;
+  transition: border-color .25s ease;
+  &:visited {
+    color: #2D2FF5;
+  }
+  &:hover {
+    border-color: #2D2FF5;
+  }
+}
+
+.join {
+  background-color: #2D2FF5;
+  color: #FEFCED;
+  &:visited {
+    color: #FEFCED;
+  }
+}
