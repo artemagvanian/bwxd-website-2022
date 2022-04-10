@@ -24,8 +24,8 @@
   h2 {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
-    font-size: 5em;
-    margin: 0 200px;
+    font-size: 5vw;
+    margin: 0 25%;
     color: #2d2ff5;
   }
 }
@@ -41,10 +41,9 @@
   p {
     font-family: 'Inter', sans-serif;
     font-weight: 300;
-    font-size: 1.125em;
-    margin: 25px;
+    font-size: 1.3vw;
+    margin: 5%;
     color: #2d2ff5;
-    line-height: 22px;
   }
 }
 
@@ -72,10 +71,8 @@
   p {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
-    font-size: 3em;
-    line-height: 58px;
-    margin: 100px 150px 100px 40px;
-    max-width: 1000px;
+    font-size: 3.2vw;
+    margin: 7.5vw 12vw 7.5vw 4vw;
     text-align: right;
     color: #2d2ff5;
   }
@@ -87,18 +84,16 @@
   h2 {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
-    font-size: 3em;
-    line-height: 58px;
-    margin: 50px;
+    font-size: 3.2vw;
+    margin: 3.3vw;
     color: #2d2ff5;
   }
   p {
     font-family: 'Inter', sans-serif;
     font-weight: 300;
-    font-size: 1.125em;
-    margin: 40px 150px 40px 50px;
+    font-size: 1.3vw;
+    margin: 2.6vw 10vw 2.6vw 3.3vw;
     color: #2d2ff5;
-    line-height: 22px;
   }
 }
 
@@ -108,19 +103,20 @@
   p {
     font-family: 'Inter', sans-serif;
     font-weight: 300;
-    font-size: 1.125em;
-    margin: 40px 55px;
+    font-size: 1.3vw;
+    margin: 2.6vw 3.6vw;
     color: #2d2ff5;
     text-align: right;
-    line-height: 22px;
   }
 }
 
 .spline {
-  position: absolute;
+  // position: absolute;
+  background-image: url(../assets/grid.svg);
+  background-repeat: repeat-y;
 }
 
-.splineContainer {
-  position: relative;
-  overflow: hidden;
-}
+// .splineContainer {
+//   position: relative;
+//   overflow: hidden;
+// }
