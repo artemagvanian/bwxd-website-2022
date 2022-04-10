@@ -14,22 +14,18 @@ $bgd-color: #fefced;
 .homeCell,
 .homeTriangle {
   background-color: $bgd-color;
-  border-color: #31788e;
+  border-color: $base-color;
 }
 
 .homeTriangle {
-  fill: #31788e;
+  fill: $base-color;
 }
 
-// .mainHeading {
-//   font-family: "Glock Grotesque";
-//   font-style: normal;
-//   font-weight: 600;
-//   font-size: 127.312px;
-//   line-height: 178px;
-//   color: #31788e;
-//   /* display:grid; */
-// }
+.blueCell {
+  background-color: $base-color;
+  border-color: $base-color;
+}
+
 
 .mainHeading {
   display: flex;
@@ -38,13 +34,15 @@ $bgd-color: #fefced;
   align-items:flex-end;
   //align-items: baseline;
   h1 {
-    font-family: "Glock Grotesque";
+  font-family: "Glock Grotesque";
   font-style: normal;
   font-weight: 600;
   font-size: 127.312px;
   line-height: 178px;
   color: $base-color;
-  margin: 0 0;
+  margin-left: 35px;
+  margin-top: 40px;
+  margin-bottom: 0;
   }
 }
 
@@ -59,7 +57,9 @@ $bgd-color: #fefced;
   line-height: 97px;
   /* identical to box height */
   color: #31788e;
-  margin: 0 0;
+  margin-left: 120px;
+  margin-top: 0;
+  margin-bottom: 0;
   }
 }
 
@@ -142,17 +142,16 @@ $bgd-color: #fefced;
   display: inline-flex;
   flex-direction: row;
   align-items: baseline;
+  padding-top: 70px;
   h2{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 80px;
     color: $base-color;
-     margin-left: 10%;
-      margin-bottom: 0;
-    //  margin-top: 0;
-    // margin-top: 2%;
-     //margin-bottom: 0;
+    margin: 0 0;
+    //  margin-left: 10%;
+    //  margin-bottom: 60px;
   }
   p{
     font-family: 'Inter';
@@ -160,10 +159,11 @@ $bgd-color: #fefced;
     font-size: 25px;
     line-height: 30px;
     color: $base-color;
-     margin-left: 10%;
-     margin-right: 10%;
-     margin-bottom: 0;
-     margin-top: 0;
+    margin: 0 0;
+      margin-left: 200px;
+      margin-right: 155px;
+    //  margin-bottom: 60px;
+    //  margin-top: 70px;
   }
 }
 
@@ -178,7 +178,7 @@ $bgd-color: #fefced;
     font-size: 80px;
     color: $bgd-color;
     margin-left: 10%;
-    margin-top: 7%;
+    margin-top: 60px;
     margin-bottom: 0;
   }
   p{
@@ -195,7 +195,6 @@ $bgd-color: #fefced;
 .imageTwo{
   grid-column: span 7;
   grid-row: span 6;
-  //background-color: pink;
   background-image: url("../assets/imgs/sponsor2.png");
 }
 
@@ -240,6 +239,9 @@ $bgd-color: #fefced;
   font-weight: 500;
   font-size: 80px;
   color: $base-color;
+  margin-left: 10%;
+  margin-bottom: 0;
+  margin-top: 0;
   }
 }
 

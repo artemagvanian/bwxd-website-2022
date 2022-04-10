@@ -13,28 +13,21 @@ function NHomeCell({ n }) {
   );
 }
 
+function NBlueCell({ n }) {
+  return (
+    <>
+      {_.times(n, (i) => (
+        <Cell key={i} className={styles.blueCell} />
+      ))}
+    </>
+  );
+}
+
 export function Sponsors() {
   return (
     <div>
       {" "}
       <Grid>
-        {/* {_.times(15, (i) => (
-          <Cell key={i} className={styles.homeCell} />
-        ))}
-        {_.times(15, (i) => (
-          <Cell key={i} className={styles.homeCell} />
-        ))}
-
-        {_.times(1, (i) => (
-          <Cell key={i} className={styles.homeCell} />
-        ))}
-      </Grid>
-      <div className={styles.mainHeading}>Sponsors</div>
-      <div className={styles.subHeading}>Why Sponsor Us?</div>
-      <Grid>
-        {_.times(1, (i) => (
-          <Cell key={i} className={styles.homeCell} />
-        ))} */}
         <NHomeCell n={15} />
         <NHomeCell n={15} />
         {/* sandwich ways of adding boxes */}
@@ -85,20 +78,19 @@ export function Sponsors() {
         <NHomeCell n={15} />
         <NHomeCell n={2} />
         <div className={styles.prevPartners}>
-          <h2>Previous Partnersss</h2>
+          <h2>Previous Partners</h2>
         </div>
         {/* some issue!! */}
         <div className={styles.imageThree}></div>
         <NHomeCell n={2} />
         <NHomeCell n={2} />
         <NHomeCell n={2} />
-        <NHomeCell n={2} />
-        <NHomeCell n={2} />
-        <NHomeCell n={2} />
-        <NHomeCell n={15} />
+        <NBlueCell n={2} />
+        <NBlueCell n={2} />
+        <NBlueCell n={2} />
 
-        {/* <div className={styles.filledBoxThree}></div>
-        <NHomeCell n={15} /> */}
+        {/* <div className={styles.filledBoxThree}></div> */}
+        <NHomeCell n={15} />
       </Grid>
     </div>
   );
