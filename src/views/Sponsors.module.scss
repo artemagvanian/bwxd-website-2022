@@ -1,0 +1,245 @@
+$base-color: #31788e;
+$bgd-color: #fefced;
+
+@font-face {
+  font-family: "Glock Grotesque";
+  src: url("../assets/fonts/GlockGrotesque-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+
+.homeCell,
+.homeTriangle {
+  background-color: $bgd-color;
+  border-color: #31788e;
+}
+
+.homeTriangle {
+  fill: #31788e;
+}
+
+// .mainHeading {
+//   font-family: "Glock Grotesque";
+//   font-style: normal;
+//   font-weight: 600;
+//   font-size: 127.312px;
+//   line-height: 178px;
+//   color: #31788e;
+//   /* display:grid; */
+// }
+
+.mainHeading {
+  display: flex;
+  grid-column: span 14;
+  grid-row: span 2; // added
+  align-items:flex-end;
+  //align-items: baseline;
+  h1 {
+    font-family: "Glock Grotesque";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 127.312px;
+  line-height: 178px;
+  color: $base-color;
+  margin: 0 0;
+  }
+}
+
+.subHeading {
+  grid-column: span 9;
+  grid-row: span 1;
+  h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 97px;
+  /* identical to box height */
+  color: #31788e;
+  margin: 0 0;
+  }
+}
+
+//all borders
+.mainHeading, .subHeading, .filledBoxOne, .filledBoxTwo, .filledBoxThree, .emptyBoxOne, .emptyBoxTwo,
+.imageOne, .imageTwo, .imageThree, .influence, .establish, .prevPartners{
+  background: $bgd-color;
+  border-width: 1px;
+  border-style: solid;
+  border-color: $base-color;
+}
+
+.filledBoxOne{
+  grid-column: span 6;
+  grid-row: span 1;
+  background-color: $base-color;
+}
+
+.filledBoxTwo{
+  grid-column: span 2;
+  grid-row: span 3;
+  background-color: $base-color;
+}
+
+.filledBoxThree{
+  grid-column: span 2;
+  grid-row: span 3;
+  background-color: $base-color;
+}
+
+.emptyBoxOne{
+  grid-column: span 3;
+  grid-row: span 4;
+  // width: 312px;
+  // height: 385px;  
+  background-color: $bgd-color;
+}
+
+.imageOne{
+  grid-column: span 6;
+  grid-row: span 4;
+  background-image: url("../assets/imgs/sponsor1.png");
+}
+
+.imageThree{
+  grid-column: span 13;
+  grid-row: span 6;
+  background-image: url("../assets/imgs/sponsor3.png");
+}
+
+.connect{
+  grid-column: span 6;
+  grid-row: span 4;
+  background-color: $base-color;
+  h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    color: $bgd-color;
+    margin-left: 10%;
+    margin-top: 7%;
+    margin-bottom: 0;
+  }
+  p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 25px;
+    line-height: 30px;
+    color: $bgd-color;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+.influence{
+  grid-column: span 12;
+  grid-row: span 2;
+  background-color: $bgd-color;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: baseline;
+  h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    color: $base-color;
+     margin-left: 10%;
+      margin-bottom: 0;
+    //  margin-top: 0;
+    // margin-top: 2%;
+     //margin-bottom: 0;
+  }
+  p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 25px;
+    line-height: 30px;
+    color: $base-color;
+     margin-left: 10%;
+     margin-right: 10%;
+     margin-bottom: 0;
+     margin-top: 0;
+  }
+}
+
+.recruit{
+  grid-column: span 8;
+  grid-row: span 3;
+  background-color: $base-color;
+  h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    color: $bgd-color;
+    margin-left: 10%;
+    margin-top: 7%;
+    margin-bottom: 0;
+  }
+  p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 25px;
+    line-height: 30px;
+    color: $bgd-color;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+.imageTwo{
+  grid-column: span 7;
+  grid-row: span 6;
+  //background-color: pink;
+  background-image: url("../assets/imgs/sponsor2.png");
+}
+
+.emptyBoxTwo{
+  grid-column: span 6;
+  grid-row: span 2;  
+  background-color: $bgd-color;
+}
+
+.establish{
+  grid-column: span 6;
+  grid-row: span 3;
+  background-color: $bgd-color;
+  h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    color: $base-color;
+    margin-left: 10%;
+    margin-top: 7%;
+    margin-bottom: 0;
+  }
+  p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 25px;
+    line-height: 30px;
+    color: $base-color;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+.prevPartners{
+  grid-column: span 13;
+  grid-row: span 1;
+  background-color: $bgd-color;
+  h2{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 80px;
+  color: $base-color;
+  }
+}
+
