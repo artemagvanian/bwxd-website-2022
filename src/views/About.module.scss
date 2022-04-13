@@ -1,0 +1,277 @@
+$base-color: #EC4700;
+$bgd-color: #fefced;
+
+@font-face {
+  font-family: "Glock Grotesque";
+  src: url("../assets/fonts/GlockGrotesque-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+
+.homeCell,
+.homeTriangle {
+  background-color: $bgd-color;
+  border-color: $base-color;
+  aspect-ratio: 1;
+}
+
+.homeTriangle {
+  fill: $base-color;
+}
+
+.blueCell {
+  background-color: $base-color;
+  border-color: $base-color;
+}
+
+
+.mainHeading {
+  display: flex;
+  grid-column: 2 / span 6;
+  grid-row: 3 / span 2; // added
+  z-index: 100;
+  align-items:flex-end;
+  h1 {
+  font-family: "Glock Grotesque";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 120px;
+  //line-height: 178px;
+  color: $base-color;
+  margin-left: 35px;
+  margin-top: 40px;
+  margin-bottom: 0;
+  }
+}
+
+.subHeading {
+  grid-column: span 9;
+  grid-row: span 1;
+  h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 97px;
+  /* identical to box height */
+  color: #31788e;
+  margin-left: 120px;
+  margin-top: 0;
+  margin-bottom: 0;
+  }
+}
+
+//all borders
+.mainHeading, .subHeading, .filledBoxOne, .filledBoxTwo, .filledBoxThree, .emptyBoxOne, .emptyBoxTwo,
+.imageOne, .imageTwo, .imageThree, .influence, .establish, .prevPartners, .aboutPara{
+  background: $bgd-color;
+  border-width: 1px;
+  border-style: solid;
+  border-color: $base-color;
+}
+
+.filledBoxOne{
+  grid-column: span 6;
+  grid-row: span 1;
+  background-color: $base-color;
+}
+
+.filledBoxTwo{
+  grid-column: span 2;
+  grid-row: span 3;
+  background-color: $base-color;
+}
+
+.filledBoxThree{
+  grid-column: span 2;
+  grid-row: span 3;
+  background-color: $base-color;
+}
+
+.emptyBoxOne{
+  grid-column: span 8;
+  grid-row: span 1;
+  // width: 312px;
+  // height: 385px;  
+  background-color: $bgd-color;
+}
+
+// .vertBoxOne{
+//   grid-column: span 1;
+//    grid-row: span 1; 
+//    padding-top: 4vw;
+//   //grid-row: span 1; 
+//   background-color: $base-color;
+//   z-index: 100;
+//   //TODO: Change this
+//   //height: 100%;
+//   h1{
+//     height: 40px;
+//     width: 120px;
+//     font-family: 'Inter';
+//     font-style: normal;
+//     font-weight: 500;
+//     font-size: 10px;
+//     margin: 0 0;
+//     // line-height: 97px;
+//     /* identical to box height */
+//     transform: rotate(90deg);
+//     color: $bgd-color;
+
+//     text-align: right;}
+// }
+
+.aboutPara{
+  grid-column: span 9;
+  grid-row: span 4;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  padding-left: 5vw;
+  padding-right: 10vw;
+  p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 1.3vw;
+    margin: 5%;
+    color: $base-color;
+  }
+}
+
+.imageOne{
+  //grid-column: span 13;
+  grid-column: 3 / span 12;
+  grid-row: 4 / span 6;
+  background-image: url("../assets/imgs/about1.png");
+  width: 100%;
+  height: 100%;
+  //align-self:flex-end;
+}
+
+.imageThree{
+  grid-column: 7 / span 13;
+  grid-row: 11 / span 6;
+  background-image: url("../assets/imgs/sponsor3.png");
+}
+
+.connect{
+  grid-column: span 6;
+  grid-row: span 4;
+  background-color: $base-color;
+  h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    color: $bgd-color;
+    margin-left: 10%;
+    margin-top: 7%;
+    margin-bottom: 0;
+  }
+  p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 25px;
+    line-height: 30px;
+    color: $bgd-color;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+.influence{
+  grid-column: span 12;
+  grid-row: span 2;
+  background-color: $bgd-color;
+  display: flex;
+  align-items: center;
+  h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    color: $base-color;
+    margin-top: 36px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+  }
+  p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 25px;
+    color: $base-color;
+    font-weight: lighter;
+       margin-left: 180px;
+       margin-right: 150px;
+       margin-top: 66px;
+       margin-bottom: 30px;
+  }
+}
+
+.recruit{
+  grid-column: span 8;
+  grid-row: span 3;
+  background-color: $base-color;
+  padding-left: 125px;
+  padding-bottom: 65px;
+  h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    color: $bgd-color;
+    //margin-left: 10%;
+    margin-top: 60px;
+    margin-bottom: 0;
+  }
+  p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 25px;
+    font-weight: lighter;
+    line-height: 30px;
+    color: $bgd-color;
+    margin-right: 280px;
+    font-weight: lighter;
+  }
+}
+
+.imageTwo{
+  grid-column: span 6;
+  grid-row: span 4;
+  // grid-row-start: 11;
+  // grid-column-start: 10;
+  // grid-row-end: 15;
+  // grid-column-end: 15;
+  
+  background-image: url("../assets/imgs/about2.png");
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+}
+
+.emptyBoxTwo{
+  grid-column: span 6;
+  grid-row: span 2;  
+  background-color: $bgd-color;
+}
+
+.prevPartners{
+  grid-column: span 13;
+  grid-row: span 1;
+  background-color: $bgd-color;
+  h2{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 80px;
+  color: $base-color;
+  margin-left: 10%;
+  margin-bottom: 0;
+  margin-top: 0;
+  }
+}
+
