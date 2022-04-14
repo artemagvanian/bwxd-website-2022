@@ -22,6 +22,15 @@ function NOrangeCell({ n }) {
     </>
   );
 }
+function NEmptyCell({ n }) {
+  return (
+    <>
+      {_.times(n, (i) => (
+        <Cell key={i} className={styles.emptyCell} />
+      ))}
+    </>
+  );
+}
 
 export function About() {
   return (
@@ -37,7 +46,8 @@ export function About() {
         <NHomeCell n={8} />
         <div className={styles.imageOne}></div>
         {/* <NOrangeCell n={10} /> */}
-        <NHomeCell n={20} />
+        <NEmptyCell n={11} />
+        <NHomeCell n={3} />
         <div className={styles.emptyBoxOne}></div>
         <NHomeCell n={2} />
         {/* <div className={styles.vertBoxOne}><h1>Who we are</h1></div> */}

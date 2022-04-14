@@ -15,7 +15,6 @@ $bgd-color: #fefced;
 .homeTriangle {
   background-color: $bgd-color;
   border-color: $base-color;
-  aspect-ratio: 1;
 }
 
 .homeTriangle {
@@ -25,6 +24,11 @@ $bgd-color: #fefced;
 .blueCell {
   background-color: $base-color;
   border-color: $base-color;
+}
+
+.emptyCell {
+  background-color: $bgd-color;
+  border-color: $bgd-color;
 }
 
 
@@ -118,7 +122,7 @@ $bgd-color: #fefced;
 
 .imageOne{
   //grid-column: span 13;
-  grid-column: 3 / span 12;
+  grid-column: 3 / span 13;
   grid-row: 4 / span 6;
   background-image: url("../assets/imgs/about1.png");
   width: 100%;
