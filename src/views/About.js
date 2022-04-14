@@ -40,6 +40,9 @@ export function About() {
         <div className={styles.emptyBoxOne}></div>
         <NHomeCell n={2} />
         {/* <div className={styles.vertBoxOne}><h1>Who we are</h1></div> */}
+        <div className={styles.vertBox}>
+          <h1>Who we are</h1>
+        </div>
         <NHomeCell n={1} />
         <div className={styles.aboutPara}>
           <p>
@@ -54,9 +57,13 @@ export function About() {
           </p>
         </div>
         <div className={styles.imageTwo}></div>
-        {/* <NHomeCell n={1} />
+        <NHomeCell n={1} />
         <NOrangeCell n={1} />
-        <NHomeCell n={13} /> */}
+        <NHomeCell n={13} />
+        <div className={styles.vertBoxTwo}>
+          <h1>What we do</h1>
+        </div>
+        {/* <div className={styles.imageThree}>hello</div> */}
       </Grid>
     </div>
   );

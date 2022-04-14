@@ -66,7 +66,7 @@ $bgd-color: #fefced;
 
 //all borders
 .mainHeading, .subHeading, .filledBoxOne, .filledBoxTwo, .filledBoxThree, .emptyBoxOne, .emptyBoxTwo,
-.imageOne, .imageTwo, .imageThree, .influence, .establish, .prevPartners, .aboutPara{
+.imageOne, .imageTwo, .imageThree, .influence, .establish, .prevPartners, .aboutPara, .vertBoxTwo{
   background: $bgd-color;
   border-width: 1px;
   border-style: solid;
@@ -99,31 +99,6 @@ $bgd-color: #fefced;
   background-color: $bgd-color;
 }
 
-// .vertBoxOne{
-//   grid-column: span 1;
-//    grid-row: span 1; 
-//    padding-top: 4vw;
-//   //grid-row: span 1; 
-//   background-color: $base-color;
-//   z-index: 100;
-//   //TODO: Change this
-//   //height: 100%;
-//   h1{
-//     height: 40px;
-//     width: 120px;
-//     font-family: 'Inter';
-//     font-style: normal;
-//     font-weight: 500;
-//     font-size: 10px;
-//     margin: 0 0;
-//     // line-height: 97px;
-//     /* identical to box height */
-//     transform: rotate(90deg);
-//     color: $bgd-color;
-
-//     text-align: right;}
-// }
-
 .aboutPara{
   grid-column: span 9;
   grid-row: span 4;
@@ -148,12 +123,6 @@ $bgd-color: #fefced;
   width: 100%;
   height: 100%;
   //align-self:flex-end;
-}
-
-.imageThree{
-  grid-column: 7 / span 13;
-  grid-row: 11 / span 6;
-  background-image: url("../assets/imgs/sponsor3.png");
 }
 
 .connect{
@@ -239,20 +208,6 @@ $bgd-color: #fefced;
   }
 }
 
-.imageTwo{
-  grid-column: span 6;
-  grid-row: span 4;
-  // grid-row-start: 11;
-  // grid-column-start: 10;
-  // grid-row-end: 15;
-  // grid-column-end: 15;
-  
-  background-image: url("../assets/imgs/about2.png");
-  width: 100%;
-  height: 100%;
-  z-index: -100;
-}
-
 .emptyBoxTwo{
   grid-column: span 6;
   grid-row: span 2;  
@@ -275,3 +230,58 @@ $bgd-color: #fefced;
   }
 }
 
+.imageTwo{
+  grid-column: span 6;
+  grid-row: span 4;
+   grid-row-start: 11;
+   grid-column-start: 10;
+   grid-row-end: 15;
+   grid-column-end: 16;
+   width: 100%;
+   height: 100%;
+  background-image: url("../assets/imgs/about2.png");
+}
+
+.vertBox{
+  grid-column: span 1;
+  grid-row: span 6; 
+  background-color: $base-color;
+  grid-row-start: 10;
+  grid-row-end: 16;
+  grid-column-start: 14;
+  grid-column-end: 15;
+  z-index: 100;
+  //margin: 2vw;
+  h1{
+    font-size: 13px;
+    width: 4vw;
+    transform: rotate(90deg);
+    color: $bgd-color;
+  }
+}
+
+.vertBoxTwo{
+  grid-column: span 1;
+  grid-row: span 6; 
+  background-color: $bgd-color;
+  grid-row-start: 16;
+  grid-column-start: 2;
+  grid-row-end: 22;
+  grid-column-end: 3;
+  z-index: 100;
+  //margin: 2vw;
+  h1{
+    font-size: 13px;
+    width: 4vw;
+    transform: rotate(90deg);
+    color: $base-color;
+  }
+}
+
+// .imageThree{
+//   grid-column: span 1;
+//   grid-row: span 6; 
+  // grid-column: 3 / span 6;
+  // grid-row: 16 / span 5;
+//   background-image: url("../assets/imgs/about3.png");
+// }
