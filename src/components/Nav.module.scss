@@ -5,7 +5,15 @@
   align-items: center;
   justify-content: end;
   padding: 0 80px;
-  border-color: #2D2FF5;
+  &.blue {
+    border-color: #2D2FF5;
+  }
+  &.red {
+    border-color: #EC4700;
+  }
+  &.green {
+    border-color: #31788E;
+  }
   border-width: 0px 1px 1px 1px;
   border-style: solid;
 }
@@ -14,6 +22,21 @@
   margin-right: auto;
   img {
     width: 70px;
+  }
+  &.blue {
+    img {
+      filter: invert(18%) sepia(97%) saturate(6324%) hue-rotate(245deg) brightness(94%) contrast(105%);
+    }
+  }
+  &.red {
+    img {
+      filter: invert(32%) sepia(35%) saturate(7497%) hue-rotate(12deg) brightness(101%) contrast(103%);
+    }
+  }
+  &.green {
+    img {
+      filter: invert(43%) sepia(7%) saturate(3096%) hue-rotate(148deg) brightness(94%) contrast(95%);
+    }
   }
 }
 
@@ -24,21 +47,49 @@
   text-align: center;
   margin-left: 30px;
   text-decoration: none;
-  color: #2D2FF5;
+  &.blue {
+    color: #2D2FF5;
+  }
+  &.red {
+    color: #EC4700;
+  }
+  &.green {
+    color: #31788E;
+  }
   padding: 18px;
   border: 2px solid transparent;
   transition: border-color .25s ease;
-  &:visited {
+  &:visited.blue {
     color: #2D2FF5;
   }
-  &:hover {
+  &:visited.red {
+    color: #EC4700;
+  }
+  &:visited.green {
+    color: #31788E;
+  }
+  &:hover.blue {
     border-color: #2D2FF5;
+  }
+  &:hover.red {
+    border-color: #EC4700;
+  }
+  &:hover.green {
+    border-color: #31788E;
   }
 }
 
 .join {
-  background-color: #2D2FF5;
-  color: #FEFCED;
+  &.blue {
+    background-color: #2D2FF5;
+  }
+  &.red {
+    background-color: #EC4700;
+  }
+  &.green {
+    background-color: #31788E;
+  }
+  color: #FEFCED !important;
   &:visited {
     color: #FEFCED;
   }
