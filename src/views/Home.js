@@ -56,12 +56,9 @@ function NBlueCell({ n }) {
 }
 
 export function Home() {
-  function onLoad(spline) {
-    spline.setZoom(5);
-    spline.render();
-    spline.resize();
-    console.log("Hi from onLoad!");
-    console.log(spline);
+  function onTextLoad(spline) {
+    const zoom = 0.75 / 1000;
+    spline.setZoom(zoom * window.innerWidth);
   }
 
   return (
@@ -148,8 +145,8 @@ export function Home() {
       {/* <div className={styles.splineContainer}> */}
       <Spline
         className={styles.spline}
-        onLoad={onLoad}
-        scene="https://prod.spline.design/b1UMZ0OW-nbQrlY6/scene.spline"
+        onLoad={onTextLoad}
+        scene="https://prod.spline.design/PHcDh7LB4SnDataV/scene.spline"
       />
       {/* <Grid>
           <NHomeCell n={120} />
