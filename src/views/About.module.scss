@@ -61,7 +61,7 @@ $bgd-color: #fefced;
   font-size: 80px;
   line-height: 97px;
   /* identical to box height */
-  color: #31788e;
+  color: #EC4700;
   margin-left: 120px;
   margin-top: 0;
   margin-bottom: 0;
@@ -86,8 +86,7 @@ $bgd-color: #fefced;
 .filledBoxTwo{
     grid-column: span 1;
     grid-row: span 2;  
-    background-color: $base-color;
-  
+    background-color: $base-color; 
 }
 
 .filledBoxThree{
@@ -366,11 +365,109 @@ font-size: 70px;
     font-size: 50px;
     width: 4vw;
     writing-mode: vertical-lr;
-     text-align: center;
-     font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 70px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
     color: $base-color;
+  }
+}
+
+.team {
+  background-color: $base-color;
+  grid-column: span 15;
+  grid-row: span 4;
+  padding: 1vw;
+  text-align: center;
+  // grid-row-start: 18;
+  //  grid-row-end: 22;
+  // grid-column-start: 7;
+  //  grid-column-end: 16;
+  z-index: 100;
+  h1 {
+    grid-column: span 5;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 120px;
+    margin: 0;
+    color: $bgd-color;
+  }
+}
+
+.committeeLabel {
+  grid-column: span 2;
+  grid-row: span 7;
+  background-color: $base-color;
+  z-index: 100;
+  
+  .committee {
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    font-family: 'Inter';
+    padding: 1vw;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    color: $bgd-color;
+  }
+}
+
+.committeeSpacer {
+  grid-column: span 1;
+  grid-row: span 7;
+  background-color: $bgd-color;
+  z-index: 100;
+  line-height: 30px;
+  border: 2px solid $base-color;
+}
+
+.committeeIntro {
+  grid-column: span 1;
+  grid-row: span 7;
+  background-color: $bgd-color;
+  z-index: 100;
+  line-height: 30px;
+  border: 1px solid $base-color;
+  color: $base-color;
+
+  .personIntro {
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: $base-color;
+  }
+}
+
+.profile {
+  grid-column: span 3;
+  grid-row: span 7;
+  background-color: $bgd-color;
+  z-index: 100;
+  line-height: 30px;
+  border: 1px solid $base-color;
+  // color: $base-color;
+
+  .profileImg {
+    grid-column: span 3;
+    max-width: 100%;
+    height: 74.5%;
+    display: block;
+  }
+
+  .personName {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    background-color: $base-color;
+    color: $bgd-color;
+    padding: 2rem;
+    margin: 0;
   }
 }

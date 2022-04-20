@@ -2,6 +2,7 @@ import * as _ from "lodash";
 //import React, { useState, useEffect } from "react";
 import { Grid, Cell, Triangle } from "../components/Grid";
 import * as styles from "./About.module.scss";
+import data from "../data/bios.json";
 
 function NHomeCell({ n }) {
   return (
@@ -29,6 +30,26 @@ function NEmptyCell({ n }) {
         <Cell key={i} className={styles.emptyCell} />
       ))}
     </>
+  );
+}
+
+function renderIntro(id) {
+  return (
+    <div className={styles.committeeIntro}>
+      <p className={styles.personIntro}>
+        {data[id].school}, <i>{data[id].pronouns}</i>
+      </p>
+    </div>
+  );
+}
+
+function renderProfile(id) {
+  return (
+    <div className={styles.profile}>
+      {/* <div className={styles.profileImg}></div> */}
+      <img className={styles.profileImg} src={data[id].seriousImg} />
+      <p className={styles.personName}>{data[id].name}</p>
+    </div>
   );
 }
 
@@ -106,6 +127,18 @@ export function About() {
           <h1>Our Story</h1>
         </div>
         <NHomeCell n={17} />
+        <NHomeCell n={15} />
+        <div className={styles.team}>
+          <h1>2022 Re-Frame</h1>
+        </div>
+        <NHomeCell n={15} />
+        <NHomeCell n={15} />
+        <div className={styles.committeeLabel}>
+          <p className={styles.committee}>Co-Chairs</p>
+        </div>
+        <div className={styles.committeeSpacer}></div>
+        {renderIntro(0)}
+        {renderProfile(0)}
       </Grid>
     </div>
   );
