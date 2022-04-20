@@ -380,10 +380,6 @@ font-size: 70px;
   grid-row: span 4;
   padding: 1vw;
   text-align: center;
-  // grid-row-start: 18;
-  //  grid-row-end: 22;
-  // grid-column-start: 7;
-  //  grid-column-end: 16;
   z-index: 100;
   h1 {
     grid-column: span 5;
@@ -475,5 +471,56 @@ font-size: 70px;
     padding: 2rem;
     margin: 0;
     height: 7rem;
+  }
+}
+
+.pastConferences {
+  grid-column: span 9;
+  grid-row: span 2;
+  background-color: $bgd-color;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.5rem;
+  text-align: right;
+  padding: 0 2rem 0 0;
+
+  .redText {
+    color: $base-color;
+  }
+
+  .whiteText {
+    color: $base-color;
+  }
+}
+
+.conference {
+  grid-column: span 10;
+  background-color: $base-color;
+  border: 1px solid $bgd-color;
+  color: $bgd-color;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 3rem;
+  font-size: 3rem;
+  margin: 0;
+
+  .year {
+    font-size: 3rem;
+    margin: 0;
+  }
+
+  .title {
+    font-size: 3rem;
+    margin: 0;
+  }
+
+  .blocks {
+    font-size: 3rem;
+    margin: 0;
   }
 }

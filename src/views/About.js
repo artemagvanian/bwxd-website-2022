@@ -242,6 +242,45 @@ export function About() {
         {renderProfile(29)}
         {renderSpacer()}
         <NHomeCell n={15} />
+
+        <NOrangeCell n={15} />
+        <NOrangeCell n={15} />
+        <NOrangeCell n={15} />
+        <NOrangeCell n={15} />
+        <div className={styles.pastConferences}>
+          <h2 className={styles.redText}>Past Conferences</h2>
+        </div>
+        <NOrangeCell n={12} />
+        <NOrangeCell n={15} />
+        <NOrangeCell n={2} />
+        <div className={styles.conference}>
+          <h1 className={styles.year}>2022</h1>
+          <h1 className={styles.title}>SEAMS</h1>
+        </div>
+        <NOrangeCell n={3} />
+
+        <NOrangeCell n={3} />
+        <div className={styles.conference}>
+          <h1 className={styles.year}>2021</h1>
+          <h1 className={styles.title}>Noise</h1>
+        </div>
+        <NOrangeCell n={2} />
+
+        <NOrangeCell n={4} />
+        <div className={styles.conference}>
+          <h1 className={styles.year}>2020</h1>
+          <h1 className={styles.title}>Tension</h1>
+        </div>
+        <NOrangeCell n={1} />
+
+        <NOrangeCell n={5} />
+        <div className={styles.conference}>
+          <h1 className={styles.year}>2019</h1>
+          <h1 className={styles.blocks}>Blocks, Bytes, and Bars</h1>
+        </div>
+
+        <NOrangeCell n={15} />
+        <NOrangeCell n={15} />
       </Grid>
     </div>
   );
