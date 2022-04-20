@@ -33,24 +33,26 @@ function NEmptyCell({ n }) {
   );
 }
 
-function renderIntro(id) {
+function renderProfile(id) {
   return (
-    <div className={styles.committeeIntro}>
-      <p className={styles.personIntro}>
-        {data[id].school}, <i>{data[id].pronouns}</i>
-      </p>
-    </div>
+    <>
+      <div className={styles.committeeSpacer}></div>
+      <div className={styles.committeeIntro}>
+        <p className={styles.personIntro}>
+          {data[id].school}, <i>{data[id].pronouns}</i>
+        </p>
+      </div>
+      <div className={styles.profile}>
+        {/* <div className={styles.profileImg}></div> */}
+        <img className={styles.profileImg} src={data[id].seriousImg} />
+        <p className={styles.personName}>{data[id].name}</p>
+      </div>
+    </>
   );
 }
 
-function renderProfile(id) {
-  return (
-    <div className={styles.profile}>
-      {/* <div className={styles.profileImg}></div> */}
-      <img className={styles.profileImg} src={data[id].seriousImg} />
-      <p className={styles.personName}>{data[id].name}</p>
-    </div>
-  );
+function renderSpacer() {
+  return <div className={styles.committeeSpacer}></div>;
 }
 
 export function About() {
@@ -133,12 +135,113 @@ export function About() {
         </div>
         <NHomeCell n={15} />
         <NHomeCell n={15} />
+
         <div className={styles.committeeLabel}>
           <p className={styles.committee}>Co-Chairs</p>
         </div>
-        <div className={styles.committeeSpacer}></div>
-        {renderIntro(0)}
         {renderProfile(0)}
+        {renderProfile(1)}
+        {renderProfile(2)}
+        {renderSpacer()}
+        <NHomeCell n={15} />
+
+        <div className={styles.committeeLabel}>
+          <p className={styles.committee}>Content</p>
+        </div>
+        {renderProfile(3)}
+        {renderProfile(4)}
+        {renderProfile(5)}
+        {renderSpacer()}
+        <NHomeCell n={15} />
+        {renderSpacer()}
+        {renderSpacer()}
+        {renderProfile(6)}
+        {renderProfile(7)}
+        {renderSpacer()}
+        {renderSpacer()}
+        {renderSpacer()}
+        {renderSpacer()}
+        {renderSpacer()}
+        <NHomeCell n={15} />
+
+        <div className={styles.committeeLabel}>
+          <p className={styles.committee}>Dev</p>
+        </div>
+        {renderProfile(9)}
+        {renderProfile(10)}
+        {renderProfile(11)}
+        {renderSpacer()}
+        <NHomeCell n={15} />
+
+        <div className={styles.committeeLabel}>
+          <p className={styles.committee}>Ops</p>
+        </div>
+        {renderProfile(12)}
+        {renderProfile(13)}
+        {renderProfile(14)}
+        {renderSpacer()}
+        <NHomeCell n={15} />
+        {renderSpacer()}
+        {renderSpacer()}
+        {renderProfile(15)}
+        {renderSpacer()}
+        {renderSpacer()}
+        {renderSpacer()}
+        {renderSpacer()}
+        {renderSpacer()}
+        {renderSpacer()}
+        {renderSpacer()}
+        {renderSpacer()}
+        {renderSpacer()}
+        <NHomeCell n={15} />
+
+        <div className={styles.committeeLabel}>
+          <p className={styles.committee}>CE</p>
+        </div>
+        {renderProfile(16)}
+        {renderProfile(17)}
+        {renderProfile(18)}
+        {renderSpacer()}
+        <NHomeCell n={15} />
+
+        <div className={styles.committeeLabel}>
+          <p className={styles.committee}>Social</p>
+        </div>
+        {renderProfile(19)}
+        {renderProfile(20)}
+        {renderProfile(21)}
+        {renderSpacer()}
+        <NHomeCell n={15} />
+
+        <div className={styles.committeeLabel}>
+          <p className={styles.committee}>PR</p>
+        </div>
+        {renderProfile(22)}
+        {renderProfile(23)}
+        {renderSpacer()}
+        {renderSpacer()}
+        {renderSpacer()}
+        {renderSpacer()}
+        {renderSpacer()}
+        <NHomeCell n={15} />
+
+        <div className={styles.committeeLabel}>
+          <p className={styles.committee}>Graphics</p>
+        </div>
+        {renderProfile(24)}
+        {renderProfile(25)}
+        {renderProfile(26)}
+        {renderSpacer()}
+        <NHomeCell n={15} />
+
+        <div className={styles.committeeLabel}>
+          <p className={styles.committee}>Web</p>
+        </div>
+        {renderProfile(27)}
+        {renderProfile(28)}
+        {renderProfile(29)}
+        {renderSpacer()}
+        <NHomeCell n={15} />
       </Grid>
     </div>
   );
