@@ -481,15 +481,12 @@ font-size: 70px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
-  font-size: 2.5rem;
   text-align: right;
-  padding: 0 2rem 0 0;
+  padding: 3rem 2rem 0 0;
 
   .redText {
-    color: $base-color;
-  }
-
-  .whiteText {
+    margin: 0;
+    font-size: 4rem;
     color: $base-color;
   }
 }
@@ -506,8 +503,6 @@ font-size: 70px;
   display: flex;
   justify-content: space-between;
   padding: 0.75rem 3rem;
-  font-size: 3rem;
-  margin: 0;
 
   .year {
     font-size: 3rem;
@@ -522,5 +517,9 @@ font-size: 70px;
   .blocks {
     font-size: 3rem;
     margin: 0;
+  }
+
+  a {
+    color: $bgd-color;
   }
 }
