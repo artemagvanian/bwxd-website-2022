@@ -3,6 +3,7 @@ import Spline from "@splinetool/react-spline";
 import React, { useState, useEffect } from "react";
 import { Grid, Cell, Triangle } from "../components/Grid";
 import * as styles from "./Home.module.scss";
+import hero from "../assets/hero.svg";
 
 function DecorativeFigure({ className }) {
   return (
@@ -63,6 +64,7 @@ export function Home() {
 
   return (
     <>
+      <img src={hero} alt="BWxD 2022 Hero" />
       <Grid>
         {/* row */}
         <NHomeCell n={15} />
@@ -142,16 +144,11 @@ export function Home() {
         </div>
         <NHomeCell n={9} />
       </Grid>
-      {/* <div className={styles.splineContainer}> */}
       <Spline
         className={styles.spline}
         onLoad={onTextLoad}
         scene="https://prod.spline.design/PHcDh7LB4SnDataV/scene.spline"
       />
-      {/* <Grid>
-          <NHomeCell n={120} />
-        </Grid> */}
-      {/* </div> */}
     </>
   );
 }
