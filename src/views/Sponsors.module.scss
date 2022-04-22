@@ -37,11 +37,11 @@ $bgd-color: #fefced;
   font-family: "Glock Grotesque";
   font-style: normal;
   font-weight: 600;
-  font-size: 120px;
+  font-size: 9vw;
   //line-height: 178px;
   color: $base-color;
-  margin-left: 35px;
-  margin-top: 40px;
+  margin-left: 2.5vw;
+  margin-top: 2.5vw;
   margin-bottom: 0;
   }
 }
@@ -53,11 +53,10 @@ $bgd-color: #fefced;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 80px;
-  line-height: 97px;
+  font-size: 5vw;
   /* identical to box height */
   color: #31788e;
-  margin-left: 120px;
+  margin-left: 10vw;
   margin-top: 0;
   margin-bottom: 0;
   }
@@ -92,9 +91,7 @@ $bgd-color: #fefced;
 
 .emptyBoxOne{
   grid-column: span 3;
-  grid-row: span 4;
-  // width: 312px;
-  // height: 385px;  
+  grid-row: span 4;  
   background-color: $bgd-color;
 }
 
@@ -118,7 +115,7 @@ $bgd-color: #fefced;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    font-size: 80px;
+    font-size: 5vw;
     color: $bgd-color;
     margin-left: 10%;
     margin-top: 7%;
@@ -128,8 +125,8 @@ $bgd-color: #fefced;
     font-family: 'Inter';
     font-style: normal;
     font-weight: lighter;
-    font-size: 25px;
-    line-height: 30px;
+    font-size: 1.7vw;
+    // line-height: 30px;
     color: $bgd-color;
     margin-left: 10%;
     margin-right: 10%;
@@ -146,22 +143,28 @@ $bgd-color: #fefced;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    font-size: 80px;
+    font-size: 5vw;
     color: $base-color;
-    margin-top: 36px;
-    margin-left: 100px;
-    margin-bottom: 30px;
+    // margin-top: 36px;
+    // margin-left: 100px;
+    // margin-bottom: 30px;
+    margin-top: 2vw;
+    margin-left: 6.8vw;
+    margin-bottom: 2.1vw;
   }
   p{
     font-family: 'Inter';
     font-style: normal;
-    font-size: 25px;
+    font-size: 1.7vw;
     color: $base-color;
     font-weight: lighter;
-       margin-left: 180px;
-       margin-right: 150px;
-       margin-top: 66px;
-       margin-bottom: 30px;
+      //  margin-left: 180px;
+      //  margin-right: 150px;
+      //  margin-top: 66px;
+      //  margin-bottom: 30px;
+      margin-left: 15%;
+       margin-right: 15%;
+       margin-top: 3%;
   }
 }
 
@@ -169,26 +172,24 @@ $bgd-color: #fefced;
   grid-column: span 8;
   grid-row: span 3;
   background-color: $base-color;
-  padding-left: 125px;
-  padding-bottom: 65px;
+  padding-left: 15%;
+  padding-bottom: 7%;
   h2{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    font-size: 80px;
+    font-size: 5vw;
     color: $bgd-color;
-    //margin-left: 10%;
-    margin-top: 60px;
+    margin-top: 10%;
     margin-bottom: 0;
   }
   p{
     font-family: 'Inter';
     font-style: normal;
-    font-size: 25px;
+    font-size: 1.7vw;
     font-weight: lighter;
-    line-height: 30px;
     color: $bgd-color;
-    margin-right: 280px;
+    margin-right: 45%;
     font-weight: lighter;
   }
 }
@@ -213,7 +214,7 @@ $bgd-color: #fefced;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    font-size: 80px;
+    font-size: 5vw;
     color: $base-color;
     margin-left: 10%;
     margin-top: 7%;
@@ -223,11 +224,10 @@ $bgd-color: #fefced;
     font-family: 'Inter';
     font-style: normal;
     font-weight: lighter;
-    font-size: 25px;
-    line-height: 30px;
+    font-size: 1.7vw;
     color: $base-color;
     margin-left: 10%;
-    margin-right: 145px;
+    margin-right: 25%;
   }
 }
 
@@ -239,7 +239,7 @@ $bgd-color: #fefced;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
-  font-size: 80px;
+  font-size: 5vw;
   color: $base-color;
   margin-left: 10%;
   margin-bottom: 0;
