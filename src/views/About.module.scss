@@ -221,14 +221,13 @@ font-weight: 500;
   grid-column-end: 15;
   z-index: 100;
   h1{
-    font-size: 50px;
+    font-size: 5vw;
     width: 4vw;
     writing-mode: vertical-lr;
     text-align: center;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    font-size: 70px;
     color: $base-color;
   }
 }
