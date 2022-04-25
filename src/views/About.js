@@ -1,5 +1,5 @@
 import * as _ from "lodash";
-//import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Grid, Cell, Triangle } from "../components/Grid";
 import * as styles from "./About.module.scss";
 import data from "../data/bios.json";
