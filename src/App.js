@@ -2,7 +2,6 @@ import "normalize.css";
 import "./App.css";
 import { Routes, Route, useLocation } from "react-router-dom";
 import { Home } from "./views/Home";
-import { MinimalHome } from "./views/MinimalHome";
 import { About } from "./views/About";
 import { Sponsors } from "./views/Sponsors";
 import { Nav } from "./components/Nav";
@@ -13,9 +12,9 @@ export function App() {
   const colorVariants = { "/about": "red", "/": "blue", "/sponsors": "green" };
   return (
     <div>
-      {/* <Nav color={colorVariants[location.pathname]} /> */}
+      <Nav color={colorVariants[location.pathname]} />
       <Routes>
-        <Route path="/" element={<MinimalHome />} />
+        <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="sponsors" element={<Sponsors />} />
       </Routes>
