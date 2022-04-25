@@ -68,12 +68,10 @@ export function About() {
         </div>
         <NHomeCell n={8} />
         <div className={styles.imageOne}></div>
-        {/* <NOrangeCell n={10} /> */}
         <NEmptyCell n={11} />
         <NHomeCell n={3} />
         <div className={styles.emptyBoxOne}></div>
         <NHomeCell n={2} />
-        {/* <div className={styles.vertBoxOne}><h1>Who we are</h1></div> */}
         <div className={styles.vertBox}>
           <h1>Who we are</h1>
         </div>
@@ -111,7 +109,7 @@ export function About() {
           </p>
         </div>
         <NHomeCell n={8} />
-        <div className={styles.filledBoxTwo}></div>
+        <div className={styles.filledBoxOne}></div>
         <NHomeCell n={4} />
         <div className={styles.emptyBoxThree}></div>
         <NHomeCell n={5} />
