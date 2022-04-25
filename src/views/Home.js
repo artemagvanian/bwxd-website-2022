@@ -56,6 +56,24 @@ function NBlueCell({ n }) {
   );
 }
 
+export function Hero() {
+  function onLoad(spline) {
+    const zoom = 1 / 1000;
+    spline.setZoom(zoom * window.innerWidth);
+  }
+
+  return (
+    <div className={styles.heroContainer}>
+      <img src={hero} alt="BWxD 2022 Hero" />
+      <Spline
+        className={styles.heroSpline}
+        onLoad={onLoad}
+        scene="https://prod.spline.design/8YOehY3Q7LzRE6J1/scene.spline"
+      />
+    </div>
+  );
+}
+
 export function Home() {
   function onTextLoad(spline) {
     const zoom = 0.75 / 1000;
@@ -64,7 +82,7 @@ export function Home() {
 
   return (
     <>
-      <img src={hero} alt="BWxD 2022 Hero" />
+      <Hero />
       <Grid>
         {/* row */}
         <NHomeCell n={15} />

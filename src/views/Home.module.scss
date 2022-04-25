@@ -111,12 +111,23 @@
 }
 
 .spline {
-  // position: absolute;
   background-image: url(../assets/grid.svg);
   background-repeat: repeat-y;
 }
 
-// .splineContainer {
-//   position: relative;
-//   overflow: hidden;
-// }
+.heroContainer {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FEFCED;
+
+  img {
+    max-height: 100vh;
+  }
+}
+
+.heroSpline {
+  position: absolute;
+}
