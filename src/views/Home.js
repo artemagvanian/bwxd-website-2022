@@ -4,6 +4,8 @@ import React, { useState, useEffect } from "react";
 import { Grid, Cell, Triangle } from "../components/Grid";
 import * as styles from "./Home.module.scss";
 import hero from "../assets/hero.svg";
+import mobileHero from "../assets/hero_mobile.svg";
+import { BREAKPOINT } from "../App";
 
 function DecorativeFigure({ className }) {
   return (
@@ -74,13 +76,24 @@ export function Hero() {
   );
 }
 
+export function MobileHero() {
+  return (
+    <div className={styles.mobileHeroContainer}>
+      <img src={mobileHero} alt="BWxD 2022 Mobile Hero" />
+    </div>
+  );
+}
+
 export function Home() {
+  const width = window.innerWidth;
+
   function onTextLoad(spline) {
     const zoom = 0.75 / 1000;
     spline.setZoom(zoom * window.innerWidth);
   }
-
-  return (
+  return width < BREAKPOINT ? (
+    <MobileHero />
+  ) : (
     <>
       <Hero />
       <Grid>

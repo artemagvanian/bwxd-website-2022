@@ -7,12 +7,20 @@ import { Sponsors } from "./views/Sponsors";
 import { Nav } from "./components/Nav";
 import React from "react";
 
+export const BREAKPOINT = 640;
+
 export function App() {
   const location = useLocation();
   const colorVariants = { "/about": "red", "/": "blue", "/sponsors": "green" };
+  const width = window.innerWidth;
+
   return (
     <div>
-      <Nav color={colorVariants[location.pathname]} />
+      {width < BREAKPOINT ? (
+        <></>
+      ) : (
+        <Nav color={colorVariants[location.pathname]} />
+      )}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
