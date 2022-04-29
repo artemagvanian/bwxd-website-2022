@@ -66,7 +66,7 @@ export function Hero() {
 
   return (
     <div className={styles.heroContainer}>
-      <img src={hero} alt="BWxD 2022 Hero" />
+      <object className={styles.hero} data={hero} type="image/svg+xml" />
       <Spline
         className={styles.heroSpline}
         onLoad={onLoad}
@@ -78,9 +78,11 @@ export function Hero() {
 
 export function MobileHero() {
   return (
-    <div className={styles.mobileHeroContainer}>
-      <img src={mobileHero} alt="BWxD 2022 Mobile Hero" />
-    </div>
+    <object
+      className={styles.mobileHero}
+      data={mobileHero}
+      type="image/svg+xml"
+    />
   );
 }
 
