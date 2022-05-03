@@ -60,7 +60,7 @@ function NBlueCell({ n }) {
 
 export function Hero() {
   function onLoad(spline) {
-    const zoom = 1 / 1000;
+    const zoom = 0.9 / 1000;
     spline.setZoom(zoom * window.innerWidth);
   }
 
