@@ -24,7 +24,7 @@ export function Nav({ color }) {
       </Link>
       <a
         className={`${styles.link} ${styles.join} ${colorVariants[color]}`}
-        href=""
+        href="mailto:hello@betterworldxdesign.com"
       >
         Join
       </a>
