@@ -1,16 +1,6 @@
 $base-color: #EC4700;
 $bgd-color: #fefced;
 
-@font-face {
-  font-family: "Glock Grotesque";
-  src: url("../assets/fonts/GlockGrotesque-Medium.ttf");
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url("../assets/fonts/Inter-VariableFont_slnt,wght.ttf");
-}
-
 .homeCell,
 .homeTriangle {
   background-color: $bgd-color;
