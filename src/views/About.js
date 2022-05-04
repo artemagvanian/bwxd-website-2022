@@ -3,6 +3,30 @@ import React, { useState, useEffect } from "react";
 import { Grid, Cell, Triangle } from "../components/Grid";
 import * as styles from "./About.module.scss";
 import data from "../data/bios.json";
+import helen from "../assets/imgs/cochairs/helen.jpg";
+import sophia from "../assets/imgs/cochairs/sophia.jpg";
+import selena from "../assets/imgs/cochairs/selena.jpg";
+import alex from "../assets/imgs/content/alex.jpg";
+import amy from "../assets/imgs/content/amy.jpg";
+import henry from "../assets/imgs/content/henry.jpg";
+import jesse from "../assets/imgs/content/jesse.jpg";
+import natalia from "../assets/imgs/content/natalia.jpg";
+import yuheng from "../assets/imgs/content/yuheng.jpg";
+import alyssa from "../assets/imgs/development/alyssa.jpg";
+import christine from "../assets/imgs/development/christine.jpg";
+import ryan_p from "../assets/imgs/development/ryan_p.jpg";
+import grace from "../assets/imgs/graphics/grace.jpg";
+import ryan_y from "../assets/imgs/graphics/ryan_y.jpg";
+import joanne from "../assets/imgs/ops/joanne.jpg";
+import rebecca from "../assets/imgs/ops/rebecca.jpg";
+import will from "../assets/imgs/ops/will.jpg";
+import yihan from "../assets/imgs/ops/yihan.jpg";
+import ellie from "../assets/imgs/pr/ellie.jpg";
+import christie from "../assets/imgs/se/christie.jpg";
+import raphael from "../assets/imgs/se/raphael.jpg";
+import aanchal from "../assets/imgs/web/aanchal.jpg";
+import artem from "../assets/imgs/web/artem.jpg";
+import lauren from "../assets/imgs/web/lauren.jpg";
 
 function NHomeCell({ n }) {
   return (
@@ -33,7 +57,7 @@ function NEmptyCell({ n }) {
   );
 }
 
-function renderProfile(id) {
+function renderProfile(id, profilePic) {
   return (
     <>
       <div className={styles.committeeSpacer}></div>
@@ -43,8 +67,7 @@ function renderProfile(id) {
         </p>
       </div>
       <div className={styles.profile}>
-        {/* <div className={styles.profileImg}></div> */}
-        <img className={styles.profileImg} src={data[id].seriousImg} />
+        <img src={profilePic} className={styles.introPic}></img>
         <p className={styles.personName}>{data[id].name}</p>
       </div>
     </>
@@ -137,24 +160,24 @@ export function About() {
         <div className={styles.committeeLabel}>
           <p className={styles.committee}>Co-Chairs</p>
         </div>
-        {renderProfile(0)}
-        {renderProfile(1)}
-        {renderProfile(2)}
+        {renderProfile(0, helen)}
+        {renderProfile(1, sophia)}
+        {renderProfile(2, selena)}
         {renderSpacer()}
         <NHomeCell n={15} />
 
         <div className={styles.committeeLabel}>
           <p className={styles.committee}>Content</p>
         </div>
-        {renderProfile(3)}
-        {renderProfile(4)}
-        {renderProfile(5)}
+        {renderProfile(3, amy)}
+        {renderProfile(4, alex)}
+        {renderProfile(5, jesse)}
         {renderSpacer()}
         <NHomeCell n={15} />
         {renderSpacer()}
         {renderSpacer()}
-        {renderProfile(6)}
-        {renderProfile(7)}
+        {renderProfile(6, natalia)}
+        {renderProfile(7, henry)}
         {renderSpacer()}
         {renderSpacer()}
         {renderSpacer()}
@@ -165,23 +188,23 @@ export function About() {
         <div className={styles.committeeLabel}>
           <p className={styles.committee}>Dev</p>
         </div>
-        {renderProfile(9)}
-        {renderProfile(10)}
-        {renderProfile(11)}
+        {renderProfile(9, ryan_p)}
+        {renderProfile(10, christine)}
+        {renderProfile(11, alyssa)}
         {renderSpacer()}
         <NHomeCell n={15} />
 
         <div className={styles.committeeLabel}>
           <p className={styles.committee}>Ops</p>
         </div>
-        {renderProfile(12)}
-        {renderProfile(13)}
-        {renderProfile(14)}
+        {renderProfile(12, rebecca)}
+        {renderProfile(13, will)}
+        {renderProfile(14, joanne)}
         {renderSpacer()}
         <NHomeCell n={15} />
         {renderSpacer()}
         {renderSpacer()}
-        {renderProfile(15)}
+        {renderProfile(15, yihan)}
         {renderSpacer()}
         {renderSpacer()}
         {renderSpacer()}
@@ -197,7 +220,7 @@ export function About() {
           <p className={styles.committee}>CE</p>
         </div>
         {renderProfile(16)}
-        {renderProfile(17)}
+        {renderProfile(17, yuheng)}
         {renderProfile(18)}
         {renderSpacer()}
         <NHomeCell n={15} />
@@ -205,8 +228,8 @@ export function About() {
         <div className={styles.committeeLabel}>
           <p className={styles.committee}>Social</p>
         </div>
-        {renderProfile(19)}
-        {renderProfile(20)}
+        {renderProfile(19, raphael)}
+        {renderProfile(20, christie)}
         {renderProfile(21)}
         {renderSpacer()}
         <NHomeCell n={15} />
@@ -214,7 +237,7 @@ export function About() {
         <div className={styles.committeeLabel}>
           <p className={styles.committee}>PR</p>
         </div>
-        {renderProfile(22)}
+        {renderProfile(22, ellie)}
         {renderProfile(23)}
         {renderSpacer()}
         {renderSpacer()}
@@ -226,8 +249,8 @@ export function About() {
         <div className={styles.committeeLabel}>
           <p className={styles.committee}>Graphics</p>
         </div>
-        {renderProfile(24)}
-        {renderProfile(25)}
+        {renderProfile(24, ryan_y)}
+        {renderProfile(25, grace)}
         {renderProfile(26)}
         {renderSpacer()}
         <NHomeCell n={15} />
@@ -235,9 +258,9 @@ export function About() {
         <div className={styles.committeeLabel}>
           <p className={styles.committee}>Web</p>
         </div>
-        {renderProfile(27)}
-        {renderProfile(28)}
-        {renderProfile(29)}
+        {renderProfile(27, artem)}
+        {renderProfile(28, aanchal)}
+        {renderProfile(29, lauren)}
         {renderSpacer()}
         <NHomeCell n={15} />
 
@@ -297,6 +320,7 @@ export function About() {
         <NOrangeCell n={15} />
         <NOrangeCell n={15} />
       </Grid>
+      <img src={helen}></img>
     </div>
   );
 }
