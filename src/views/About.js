@@ -11,22 +11,25 @@ import amy from "../assets/imgs/content/amy.jpg";
 import henry from "../assets/imgs/content/henry.jpg";
 import jesse from "../assets/imgs/content/jesse.jpg";
 import natalia from "../assets/imgs/content/natalia.jpg";
-import yuheng from "../assets/imgs/content/yuheng.jpg";
 import alyssa from "../assets/imgs/development/alyssa.jpg";
 import christine from "../assets/imgs/development/christine.jpg";
 import ryan_p from "../assets/imgs/development/ryan_p.jpg";
 import grace from "../assets/imgs/graphics/grace.jpg";
 import ryan_y from "../assets/imgs/graphics/ryan_y.jpg";
+import kayla from "../assets/imgs/graphics/kayla.jpg";
 import joanne from "../assets/imgs/ops/joanne.jpg";
 import rebecca from "../assets/imgs/ops/rebecca.jpg";
 import will from "../assets/imgs/ops/will.jpg";
 import yihan from "../assets/imgs/ops/yihan.jpg";
+import rachael from "../assets/imgs/pr/rachael.jpg";
 import ellie from "../assets/imgs/pr/ellie.jpg";
 import christie from "../assets/imgs/se/christie.jpg";
 import raphael from "../assets/imgs/se/raphael.jpg";
 import aanchal from "../assets/imgs/web/aanchal.jpg";
 import artem from "../assets/imgs/web/artem.jpg";
 import lauren from "../assets/imgs/web/lauren.jpg";
+import kelly from "../assets/imgs/ce/kelly.jpg";
+import yuheng from "../assets/imgs/ce/yuheng.jpg";
 
 function NHomeCell({ n }) {
   return (
@@ -219,7 +222,7 @@ export function About() {
         <div className={styles.committeeLabel}>
           <p className={styles.committee}>CE</p>
         </div>
-        {renderProfile(16)}
+        {renderProfile(16, kelly)}
         {renderProfile(17, yuheng)}
         {renderProfile(18)}
         {renderSpacer()}
@@ -238,7 +241,7 @@ export function About() {
           <p className={styles.committee}>PR</p>
         </div>
         {renderProfile(22, ellie)}
-        {renderProfile(23)}
+        {renderProfile(23, rachael)}
         {renderSpacer()}
         {renderSpacer()}
         {renderSpacer()}
@@ -251,7 +254,7 @@ export function About() {
         </div>
         {renderProfile(24, ryan_y)}
         {renderProfile(25, grace)}
-        {renderProfile(26)}
+        {renderProfile(26, kayla)}
         {renderSpacer()}
         <NHomeCell n={15} />
 
