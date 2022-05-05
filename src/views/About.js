@@ -323,7 +323,6 @@ export function About() {
         <NOrangeCell n={15} />
         <NOrangeCell n={15} />
       </Grid>
-      <img src={helen}></img>
     </div>
   );
 }
