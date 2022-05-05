@@ -224,7 +224,10 @@ export function About() {
         </div>
         {renderProfile(16, kelly)}
         {renderProfile(17, yuheng)}
-        {renderProfile(18)}
+        {renderSpacer()}
+        {renderSpacer()}
+        {renderSpacer()}
+        {renderSpacer()}
         {renderSpacer()}
         <NHomeCell n={15} />
 
