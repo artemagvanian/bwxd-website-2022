@@ -25,6 +25,7 @@ import rachael from "../assets/imgs/pr/rachael.jpg";
 import ellie from "../assets/imgs/pr/ellie.jpg";
 import christie from "../assets/imgs/se/christie.jpg";
 import raphael from "../assets/imgs/se/raphael.jpg";
+import nicole from "../assets/imgs/se/nicole.jpg";
 import aanchal from "../assets/imgs/web/aanchal.jpg";
 import artem from "../assets/imgs/web/artem.jpg";
 import lauren from "../assets/imgs/web/lauren.jpg";
@@ -236,7 +237,7 @@ export function About() {
         </div>
         {renderProfile(19, raphael)}
         {renderProfile(20, christie)}
-        {renderProfile(21)}
+        {renderProfile(21, nicole)}
         {renderSpacer()}
         <NHomeCell n={15} />
 
