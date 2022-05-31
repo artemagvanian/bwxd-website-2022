@@ -1,12 +1,13 @@
-import * as _ from "lodash";
-//import React, { useState, useEffect } from "react";
-import { Grid, Cell, Triangle } from "../components/Grid";
+import React from "react";
+import { times } from "lodash";
+
+import { Grid, Cell } from "../components/Grid";
 import * as styles from "./Sponsors.module.scss";
 
 function NHomeCell({ n }) {
   return (
     <>
-      {_.times(n, (i) => (
+      {times(n, (i) => (
         <Cell key={i} className={styles.homeCell} />
       ))}
     </>
@@ -16,7 +17,7 @@ function NHomeCell({ n }) {
 function NBlueCell({ n }) {
   return (
     <>
-      {_.times(n, (i) => (
+      {times(n, (i) => (
         <Cell key={i} className={styles.blueCell} />
       ))}
     </>

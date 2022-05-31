@@ -1,41 +1,128 @@
-import * as _ from "lodash";
-import React, { useState, useEffect } from "react";
-import { Grid, Cell, Triangle } from "../components/Grid";
+import React from "react";
+import { times } from "lodash";
+
+import { Grid, Cell } from "../components/Grid";
 import * as styles from "./About.module.scss";
+
 import data from "../data/bios.json";
-import helen from "../assets/imgs/cochairs/helen.jpg";
-import sophia from "../assets/imgs/cochairs/sophia.jpg";
-import selena from "../assets/imgs/cochairs/selena.jpg";
-import alex from "../assets/imgs/content/alex.jpg";
-import amy from "../assets/imgs/content/amy.jpg";
-import henry from "../assets/imgs/content/henry.jpg";
-import jesse from "../assets/imgs/content/jesse.jpg";
-import natalia from "../assets/imgs/content/natalia.jpg";
-import alyssa from "../assets/imgs/development/alyssa.jpg";
-import christine from "../assets/imgs/development/christine.jpg";
-import ryan_p from "../assets/imgs/development/ryan_p.jpg";
-import grace from "../assets/imgs/graphics/grace.jpg";
-import ryan_y from "../assets/imgs/graphics/ryan_y.jpg";
-import kayla from "../assets/imgs/graphics/kayla.jpg";
-import joanne from "../assets/imgs/ops/joanne.jpg";
-import rebecca from "../assets/imgs/ops/rebecca.jpg";
-import will from "../assets/imgs/ops/will.jpg";
-import yihan from "../assets/imgs/ops/yihan.jpg";
-import rachael from "../assets/imgs/pr/rachael.jpg";
-import ellie from "../assets/imgs/pr/ellie.jpg";
-import christie from "../assets/imgs/se/christie.jpg";
-import raphael from "../assets/imgs/se/raphael.jpg";
-import nicole from "../assets/imgs/se/nicole.jpg";
-import aanchal from "../assets/imgs/web/aanchal.jpg";
-import artem from "../assets/imgs/web/artem.jpg";
-import lauren from "../assets/imgs/web/lauren.jpg";
-import kelly from "../assets/imgs/ce/kelly.jpg";
-import yuheng from "../assets/imgs/ce/yuheng.jpg";
+
+const helen = new URL(
+  "../assets/imgs/cochairs/helen.jpg?as=webp&width=320",
+  import.meta.url
+);
+const sophia = new URL(
+  "../assets/imgs/cochairs/sophia.jpg?as=webp&width=320",
+  import.meta.url
+);
+const selena = new URL(
+  "../assets/imgs/cochairs/selena.jpg?as=webp&width=320",
+  import.meta.url
+);
+const alex = new URL(
+  "../assets/imgs/content/alex.jpg?as=webp&width=320",
+  import.meta.url
+);
+const amy = new URL(
+  "../assets/imgs/content/amy.jpg?as=webp&width=320",
+  import.meta.url
+);
+const henry = new URL(
+  "../assets/imgs/content/henry.jpg?as=webp&width=320",
+  import.meta.url
+);
+const jesse = new URL(
+  "../assets/imgs/content/jesse.jpg?as=webp&width=320",
+  import.meta.url
+);
+const natalia = new URL(
+  "../assets/imgs/content/natalia.jpg?as=webp&width=320",
+  import.meta.url
+);
+const alyssa = new URL(
+  "../assets/imgs/development/alyssa.jpg?as=webp&width=320",
+  import.meta.url
+);
+const christine = new URL(
+  "../assets/imgs/development/christine.jpg?as=webp&width=320",
+  import.meta.url
+);
+const ryan_p = new URL(
+  "../assets/imgs/development/ryan_p.jpg?as=webp&width=320",
+  import.meta.url
+);
+const grace = new URL(
+  "../assets/imgs/graphics/grace.jpg?as=webp&width=320",
+  import.meta.url
+);
+const ryan_y = new URL(
+  "../assets/imgs/graphics/ryan_y.jpg?as=webp&width=320",
+  import.meta.url
+);
+const kayla = new URL(
+  "../assets/imgs/graphics/kayla.jpg?as=webp&width=320",
+  import.meta.url
+);
+const joanne = new URL(
+  "../assets/imgs/ops/joanne.jpg?as=webp&width=320",
+  import.meta.url
+);
+const rebecca = new URL(
+  "../assets/imgs/ops/rebecca.jpg?as=webp&width=320",
+  import.meta.url
+);
+const will = new URL(
+  "../assets/imgs/ops/will.jpg?as=webp&width=320",
+  import.meta.url
+);
+const yihan = new URL(
+  "../assets/imgs/ops/yihan.jpg?as=webp&width=320",
+  import.meta.url
+);
+const rachael = new URL(
+  "../assets/imgs/pr/rachael.jpg?as=webp&width=320",
+  import.meta.url
+);
+const ellie = new URL(
+  "../assets/imgs/pr/ellie.jpg?as=webp&width=320",
+  import.meta.url
+);
+const christie = new URL(
+  "../assets/imgs/se/christie.jpg?as=webp&width=320",
+  import.meta.url
+);
+const raphael = new URL(
+  "../assets/imgs/se/raphael.jpg?as=webp&width=320",
+  import.meta.url
+);
+const nicole = new URL(
+  "../assets/imgs/se/nicole.jpg?as=webp&width=320",
+  import.meta.url
+);
+const aanchal = new URL(
+  "../assets/imgs/web/aanchal.jpg?as=webp&width=320",
+  import.meta.url
+);
+const artem = new URL(
+  "../assets/imgs/web/artem.jpg?as=webp&width=320",
+  import.meta.url
+);
+const lauren = new URL(
+  "../assets/imgs/web/lauren.jpg?as=webp&width=320",
+  import.meta.url
+);
+const kelly = new URL(
+  "../assets/imgs/ce/kelly.jpg?as=webp&width=320",
+  import.meta.url
+);
+const yuheng = new URL(
+  "../assets/imgs/ce/yuheng.jpg?as=webp&width=320",
+  import.meta.url
+);
 
 function NHomeCell({ n }) {
   return (
     <>
-      {_.times(n, (i) => (
+      {times(n, (i) => (
         <Cell key={i} className={styles.homeCell} />
       ))}
     </>
@@ -45,7 +132,7 @@ function NHomeCell({ n }) {
 function NOrangeCell({ n }) {
   return (
     <>
-      {_.times(n, (i) => (
+      {times(n, (i) => (
         <Cell key={i} className={styles.blueCell} />
       ))}
     </>
@@ -54,7 +141,7 @@ function NOrangeCell({ n }) {
 function NEmptyCell({ n }) {
   return (
     <>
-      {_.times(n, (i) => (
+      {times(n, (i) => (
         <Cell key={i} className={styles.emptyCell} />
       ))}
     </>

@@ -1,4 +1,4 @@
-import * as styles from "./Grid.module.css";
+import * as styles from "./Grid.module.scss";
 
 export function Grid({ children, className }) {
   return (

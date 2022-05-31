@@ -1,11 +1,14 @@
 import "normalize.css";
-import "./App.css";
+
+import React from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
+
 import { Home } from "./views/Home";
 import { About } from "./views/About";
 import { Sponsors } from "./views/Sponsors";
 import { Nav } from "./components/Nav";
-import React from "react";
+
+import "./App.scss";
 
 export const BREAKPOINT = 640;
 

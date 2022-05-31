@@ -5,6 +5,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
+    "report": "parcel build src/index.html --reporter @parcel/reporter-bundle-buddy",
     "test": "jest",
     "prepare": "husky install",
     "format": "prettier --write \"./**/*.{js,css,md}\""
@@ -13,6 +14,7 @@
     "@babel/core": "^7.16.7",
     "@babel/preset-env": "^7.16.7",
     "@babel/preset-react": "^7.16.7",
+    "@parcel/reporter-bundle-buddy": "^2.6.0",
     "@parcel/transformer-sass": "^2.2.1",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",

@@ -1,11 +1,14 @@
-import * as _ from "lodash";
+import React from "react";
 import Spline from "@splinetool/react-spline";
-import React, { useState, useEffect } from "react";
+import { times } from "lodash";
+
 import { Grid, Cell, Triangle } from "../components/Grid";
 import * as styles from "./Home.module.scss";
-import hero from "../assets/hero.svg";
-import mobileHero from "../assets/hero_mobile.svg";
+
 import { BREAKPOINT } from "../App";
+
+const hero = new URL("../assets/hero.svg", import.meta.url);
+const mobileHero = new URL("../assets/hero_mobile.svg", import.meta.url);
 
 function DecorativeFigure({ className }) {
   return (
@@ -41,7 +44,7 @@ function DecorativeFigure({ className }) {
 function NHomeCell({ n }) {
   return (
     <>
-      {_.times(n, (i) => (
+      {times(n, (i) => (
         <Cell key={i} className={styles.homeCell} />
       ))}
     </>
@@ -51,7 +54,7 @@ function NHomeCell({ n }) {
 function NBlueCell({ n }) {
   return (
     <>
-      {_.times(n, (i) => (
+      {times(n, (i) => (
         <Cell key={i} className={styles.blueCell} />
       ))}
     </>

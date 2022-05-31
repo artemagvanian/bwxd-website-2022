@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/logo.svg";
+
 import * as styles from "./Nav.module.scss";
+
+const logo = new URL("../assets/logo.svg", import.meta.url);
 
 export function Nav({ color }) {
   const colorVariants = {
