@@ -371,7 +371,7 @@ export function About() {
         <div className={styles.conference}>
           <h1 className={styles.year}>2021</h1>
           <h1 className={styles.title}>
-            <a href="http://betterworldxdesign.com/conference2021.html">
+            <a href="https://betterworldxdesign.com/history/conference2021.html">
               SEAMS
             </a>
           </h1>
@@ -382,7 +382,7 @@ export function About() {
         <div className={styles.conference}>
           <h1 className={styles.year}>2019</h1>
           <h1 className={styles.title}>
-            <a href="http://betterworldxdesign.com/conference2019.html">
+            <a href="https://betterworldxdesign.com/history/conference2019.html">
               Noise
             </a>
           </h1>
@@ -393,7 +393,7 @@ export function About() {
         <div className={styles.conference}>
           <h1 className={styles.year}>2018</h1>
           <h1 className={styles.title}>
-            <a href="http://betterworldxdesign.com/conference2018.html">
+            <a href="https://betterworldxdesign.com/history/conference2018.html">
               Tension
             </a>
           </h1>
@@ -404,7 +404,7 @@ export function About() {
         <div className={styles.conference}>
           <h1 className={styles.year}>2017</h1>
           <h1 className={styles.blocks}>
-            <a href="http://betterworldxdesign.com/conference2017.html">
+            <a href="https://betterworldxdesign.com/history/conference2017.html">
               Blocks, Bytes, and Bars
             </a>
           </h1>
