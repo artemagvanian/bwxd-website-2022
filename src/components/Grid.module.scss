@@ -3,9 +3,15 @@
   grid-template-columns: repeat(15, 1fr);
 }
 
+.mobileGrid {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+}
+
 .cell,
-.triangle {
-  border-width: 1px;
+.triangle
+.diagonalCell {
+  border-width: 0.075vw;
   border-style: solid;
   aspect-ratio: 1;
 }

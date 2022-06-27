@@ -8,6 +8,14 @@ export function Grid({ children, className }) {
   );
 }
 
+export function MobileGrid({ children, className }) {
+  return (
+    <div className={`${styles.mobileGrid} ${className ? className : ""}`}>
+      {children}
+    </div>
+  );
+}
+
 export function Cell({ children, className }) {
   return (
     <div className={`${styles.cell} ${className ? className : ""}`}>
@@ -25,6 +33,19 @@ export function Triangle({ className }) {
       viewBox="0 0 100 100"
     >
       <polygon points="0 0, 0 100, 100 100" />
+    </svg>
+  );
+}
+
+export function DiagonalCell({ className }) {
+  return (
+    <svg
+      className={`${styles.diagonalCell} ${className ? className : ""}`}
+      width="100%"
+      height="100%"
+      viewBox="0 0 100 100"
+    >
+      <line x1="0" y1="0" x2="100" y2="100" />
     </svg>
   );
 }
