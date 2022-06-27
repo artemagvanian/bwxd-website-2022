@@ -1,0 +1,174 @@
+.goal {
+  grid-column: span 6;
+  grid-row: span 5;
+  background-color: #2d2ff5;
+  border-color: #2d2ff5;
+  border-width: 0.075vw;
+  border-style: solid;
+  p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 3.5vw;
+    margin: 10%;
+    color: #fefced;
+  }
+}
+
+.whyReframe {
+  grid-column: span 1;
+  grid-row: span 7;
+  background-color: #fefced;
+  border-color: #2d2ff5;
+  border-width: 0.075vw;
+  border-style: solid;
+  h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 9.5vw;
+    vertical-align: middle;
+    margin: 25% 0 0 10%;
+    color: #2d2ff5;
+    writing-mode: vertical-lr;
+  }
+}
+
+.diagonalCell {
+  stroke: #2d2ff5;
+  stroke-width: 0.5vw;
+  fill: none;
+  border-color: #2d2ff5;
+  border-width: 0.075vw;
+  border-style: solid;
+  background-color: #fefced;
+}
+
+.longCell {
+  grid-column: span 3;
+  grid-row: span 1;
+  background-color: #fefced;
+  border-color: #2d2ff5;
+  border-width: 0.075vw;
+  border-style: solid;
+  aspect-ratio: 3;
+}
+
+.smallTriangle {
+  fill: #2d2ff5;
+  border-color: #2d2ff5;
+  border-width: 0.075vw;
+  border-style: solid;
+}
+
+.blueCell {
+  background-color: #2d2ff5;
+  border-color: #2d2ff5;
+  border-color: #2d2ff5;
+  border-width: 0.075vw;
+  border-style: solid;
+}
+
+.context {
+  grid-column: span 9;
+  grid-row: span 3;
+  background-color: #fefced;
+  border-color: #2d2ff5;
+  border-width: 0.075vw;
+  border-style: solid;
+  h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 6.5vw;
+    margin: 9%;
+    text-align: center;
+    color: #2d2ff5;
+  }
+}
+
+.bigCell {
+  grid-column: 7 / span 3;
+  grid-row: 11 / span 3;
+  background-color: #fefced;
+  border-color: #2d2ff5;
+  border-width: 0.075vw;
+  border-style: solid;
+}
+
+.use,
+.purpose,
+.understanding {
+  background-color: #fefced;
+  border-color: #2d2ff5;
+  border-width: 0.075vw;
+  border-style: solid;
+  display: flex;
+  justify-content: flex-start;
+  gap: 5%;
+  h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 6.5vw;
+    color: #2d2ff5;
+    margin: 0;
+    align-self: center;
+  }
+}
+
+.use {
+  grid-column: span 4;
+  grid-row: span 1;
+  aspect-ratio: 4;
+}
+
+.purpose {
+  grid-column: 2 / span 6;
+  grid-row: 13 / span 1;
+  aspect-ratio: 6;
+}
+
+.understanding {
+  grid-column: span 7;
+  grid-row: span 1;
+  aspect-ratio: 7;
+}
+
+.power {
+  grid-column: span 8;
+  grid-row: span 8;
+  background-color: #fefced;
+  border-color: #2d2ff5;
+  border-width: 0.075vw;
+  border-style: solid;
+  p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 3.5vw;
+    margin: 7.5%;
+    line-height: 1.4;
+    color: #2d2ff5;
+  }
+}
+
+.stepOutContainer {
+  position: relative;
+}
+
+.stepOutElement {
+  position: absolute;
+  top: 50%;  
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-5deg);
+  width: 90%;
+  height: 30%;
+  background-color: #fefced;
+  border-color: #2d2ff5;
+  border-width: 0.3vw;
+  border-style: solid;
+  h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 3.5vw;
+    margin: 5% 15%;
+    text-align: center;
+    color: #2d2ff5;
+  }
+}
