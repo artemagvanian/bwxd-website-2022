@@ -8,6 +8,8 @@ import {
   MobileGrid,
   DiagonalCell,
 } from "../components/Grid";
+import { MobileNav } from "../components/MobileNav";
+
 import * as styles from "./Home.module.scss";
 import * as mobileStyles from "./Home.mobile.module.scss";
 
@@ -115,6 +117,7 @@ function MobileHero() {
 function MobileHome() {
   return (
     <>
+      <MobileNav />
       <MobileHero />
       <MobileGrid>
         <NHomeCell n={1} />

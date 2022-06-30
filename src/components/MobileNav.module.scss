@@ -1,0 +1,51 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 65px 25px 25px 25px;
+  background-color: #fefced;
+}
+
+.logo,
+.cross,
+.sandwich {
+  img {  
+    width: auto;
+    height: 100%;
+  }
+}
+
+.cross,
+.sandwich {
+  cursor: pointer;
+}
+
+.menu {
+  position: absolute;
+  left: 0;
+  width: 100vw;
+  height: calc(100vh - 140px);
+  background-color: rgba(254, 252, 237, .9);
+}
+
+.linkBlock {
+  display: flex;
+  margin: 45px;
+  justify-content: end;
+}
+
+.link {
+  font-family: Glock;
+  font-weight: 700;
+  font-size: 10vw;
+  text-align: right;
+  text-decoration: none;
+  color: #2d2ff5;
+  margin-left: auto;
+}
+
+.join {
+  background-color: #2d2ff5;
+  color: #fefced;
+  padding: 20px 20px 10px 20px;
+  margin-top: -20px;
+}
