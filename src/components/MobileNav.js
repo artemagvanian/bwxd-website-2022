@@ -2,6 +2,8 @@ import { useState } from "react";
 
 import { Link } from "react-router-dom";
 
+import Fade from "../components/Fade";
+
 import * as styles from "./MobileNav.module.scss";
 
 const logo = new URL("../assets/logo_large.svg", import.meta.url);
@@ -37,7 +39,7 @@ export function MobileNav({ color }) {
           </div>
         )}
       </nav>
-      {open && (
+      <Fade in={open}>
         <div className={styles.menu}>
           <div className={styles.linkBlock}>
             <Link className={styles.link} to="/">
@@ -63,7 +65,7 @@ export function MobileNav({ color }) {
             </a>
           </div>
         </div>
-      )}
+      </Fade>
     </>
   );
 }
