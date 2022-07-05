@@ -1,7 +1,16 @@
 import { times } from "lodash";
 
-import { Grid, Cell } from "../components/Grid";
+import {
+  Grid,
+  Cell,
+  Triangle,
+  MobileGrid,
+  DiagonalCell,
+} from "../components/Grid";
 import * as styles from "./Sponsors.module.scss";
+import { MobileNav } from "../components/MobileNav";
+import * as mobileStyles from "./Sponsors.mobile.module.scss";
+import { BREAKPOINT } from "../App";
 
 function NHomeCell({ n }) {
   return (
@@ -23,7 +32,7 @@ function NBlueCell({ n }) {
   );
 }
 
-export function Sponsors() {
+function DesktopSponsors() {
   return (
     <div>
       {" "}
@@ -94,5 +103,45 @@ export function Sponsors() {
       </Grid>
     </div>
   );
+}
+
+function MobileSponsors() {
+  return (
+    <>
+      <MobileNav />
+      <MobileGrid>
+        <div className={mobileStyles.mainHeading}>
+          <h1>Sponsors</h1>
+        </div>
+        <NHomeCell n={9} />
+        <div className={mobileStyles.whySponsor}>
+          <h2>Why Sponsor Us?</h2>
+        </div>
+        <NBlueCell n={1} />
+        <NHomeCell n={9} />
+        <div className={mobileStyles.imageOne}></div>
+        <div className={mobileStyles.connect}>
+          <h2>Connect</h2>
+          <p>
+            With talented designers, artists, engineers, and entrepreneurs from
+            across the country and around the world.
+          </p>
+        </div>
+        <NHomeCell n={1} />
+        <div className={mobileStyles.influence}>
+          <h2>Influence</h2>
+          <p>And work with innovators for creative business solutions.</p>
+        </div>
+        <NHomeCell n={1} />
+        <NHomeCell n={9} />
+      </MobileGrid>
+    </>
+  );
+}
+
+export function Sponsors() {
+  //return <DesktopSponsors/>
+  const width = window.innerWidth;
+  return width < BREAKPOINT ? <MobileSponsors /> : <DesktopSponsors />;
 }
 export default Sponsors;

@@ -288,6 +288,7 @@ function DesktopHome() {
 export function Home() {
   const width = window.innerWidth;
   return width < BREAKPOINT ? <MobileHome /> : <DesktopHome />;
+  // return width < BREAKPOINT ? <DesktopHome /> : <MobileHome />;
 }
 
 export default Home;
