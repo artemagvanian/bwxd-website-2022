@@ -134,6 +134,28 @@ function MobileSponsors() {
         </div>
         <NHomeCell n={1} />
         <NHomeCell n={9} />
+        <div className={mobileStyles.recruit}>
+          <h2>Recruit</h2>
+          <p>Students from Brown, RISD, and other top-tier universities.</p>
+        </div>
+        <div className={mobileStyles.imageTwo}></div>
+        <div className={mobileStyles.emptyBox}></div>
+
+        <div className={mobileStyles.establish}>
+          <h2>Establish</h2>
+          <p>A lasting presence with future change-makers in the Northeast.</p>
+        </div>
+        <NBlueCell n={2} />
+        {/* <div className={mobileStyles.filledBox}></div>*/}
+        <NHomeCell n={2} />
+        <NBlueCell n={1} />
+        <NHomeCell n={9} />
+        <div className={mobileStyles.prevPartners}>
+          <h2>Previous Partners</h2>
+        </div>
+        <NHomeCell n={2} />
+        <div className={mobileStyles.imageThree}></div>
+        <NHomeCell n={9} />
       </MobileGrid>
     </>
   );
