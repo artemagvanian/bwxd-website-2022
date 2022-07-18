@@ -1,3 +1,5 @@
+import { times } from "lodash";
+
 import * as styles from "./Grid.module.scss";
 
 export function Grid({ children, className }) {
@@ -47,5 +49,35 @@ export function DiagonalCell({ className }) {
     >
       <line x1="0" y1="0" x2="100" y2="100" />
     </svg>
+  );
+}
+
+export function NHomeCell({ n }) {
+  return (
+    <>
+      {times(n, (i) => (
+        <Cell key={i} className={styles.homeCell} />
+      ))}
+    </>
+  );
+}
+
+export function NBlueCell({ n }) {
+  return (
+    <>
+      {times(n, (i) => (
+        <Cell key={i} className={styles.blueCell} />
+      ))}
+    </>
+  );
+}
+
+export function NBlueOutlinedCell({ n }) {
+  return (
+    <>
+      {times(n, (i) => (
+        <Cell key={i} className={styles.blueOutlinedCell} />
+      ))}
+    </>
   );
 }

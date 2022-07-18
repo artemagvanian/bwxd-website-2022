@@ -1,5 +1,4 @@
 import Spline from "@splinetool/react-spline";
-import { times } from "lodash";
 
 import {
   Grid,
@@ -7,8 +6,11 @@ import {
   Triangle,
   MobileGrid,
   DiagonalCell,
+  NBlueCell,
+  NHomeCell,
 } from "../components/Grid";
 import { MobileNav } from "../components/MobileNav";
+import { SpeakerA, SpeakerB } from "../components/Speaker";
 
 import * as styles from "./Home.module.scss";
 import * as mobileStyles from "./Home.mobile.module.scss";
@@ -45,26 +47,6 @@ function DecorativeFigure({ className }) {
         strokeWidth="2px"
       />
     </svg>
-  );
-}
-
-function NHomeCell({ n }) {
-  return (
-    <>
-      {times(n, (i) => (
-        <Cell key={i} className={styles.homeCell} />
-      ))}
-    </>
-  );
-}
-
-function NBlueCell({ n }) {
-  return (
-    <>
-      {times(n, (i) => (
-        <Cell key={i} className={styles.blueCell} />
-      ))}
-    </>
   );
 }
 
@@ -288,7 +270,6 @@ function DesktopHome() {
 export function Home() {
   const width = window.innerWidth;
   return width < BREAKPOINT ? <MobileHome /> : <DesktopHome />;
-  // return width < BREAKPOINT ? <DesktopHome /> : <MobileHome />;
 }
 
 export default Home;
