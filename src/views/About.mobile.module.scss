@@ -1,0 +1,235 @@
+$base-color: #EC4700;
+$bgd-color: #fefced;
+$sub-heading-height: 8vw; // arbitrary standard based on visual
+
+.mainHeading {
+display: flex;
+grid-column: span 9;
+ grid-row: span 2;
+  background-color: $base-color;
+   border-color: $base-color;
+  border-width: 0.075vw;
+  border-style: solid;
+  h1 {
+      font-family: "Glock";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16vw;
+      color: $bgd-color;
+      margin: 5%;
+      }
+}
+
+.whySponsor{
+
+  grid-column: span 8;
+   //grid-row: 1;
+  background-color: $bgd-color;
+  border-color: $base-color;
+  border-width: 0.075vw;
+  border-style: solid;
+  padding-left: 5%; // could align this center
+
+  h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: $base-color;
+    margin-left: 1vw;
+    margin: 0;
+  }
+}
+
+.imageOne{
+  grid-column: span 9;
+  grid-row: span 5;
+  // display: block;
+  // max-width: 100%;
+  // max-height: 100%;    
+  background-color: pink;
+  // background-image: url("../assets/imgs/about1.png");
+}
+
+.boxOne{
+  grid-column: span 9;
+  grid-row: span 7;
+  background-color: $bgd-color;
+
+  p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 4vw;
+    color: $base-color;
+    margin-left: 10%;
+    margin-right: 30%;
+  }
+}
+
+.connect{
+grid-column: span 4;
+  grid-row: span 4;
+  background-color: $base-color;
+  h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: $sub-heading-height;
+    color: $bgd-color;
+    margin-left: 10%;
+    margin-top: 7%;
+    margin-bottom: 0;
+  }
+  p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 4vw;
+    color: $bgd-color;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+.influence{
+  display: flex;
+  grid-column: span 8;
+  grid-row: span 2;
+  background-color: $bgd-color;
+  display: flex;
+  align-items: center;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: $base-color;
+  h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: $sub-heading-height;
+    color: $base-color;
+    margin-top: 2vw;
+    margin-left: 3.8vw;
+    margin-bottom: 2.1vw;
+  }
+  p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 3vw;
+    color: $base-color;
+    font-weight:100;
+       margin-left: 10%;
+        margin-right: 10%;
+  }
+}
+
+.recruit{
+  grid-column: span 5;
+  grid-row: span 3;
+  background-color: $base-color;
+  padding-left: 15%;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: $base-color;
+  h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: $sub-heading-height;
+    color: $bgd-color;
+    margin-top: 10%;
+    margin-bottom: 0;
+  }
+  p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 4vw;
+    font-weight: lighter;
+    color: $bgd-color;
+    margin-right: 10%;
+    font-weight: lighter;
+  }
+}
+
+.imageTwo{
+  grid-column: span 4;
+  grid-row: span 3;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  background-image: url("../assets/imgs/sponsor2.png?as=webp&width=800");
+}
+
+.emptyBox{
+  grid-column: span 2;
+  grid-row: span 2;  
+  background-color: $bgd-color;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: $base-color;
+}
+
+.establish{
+  grid-column: span 6;
+  grid-row: span 3;
+  background-color: $bgd-color;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: $base-color;
+  h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: $sub-heading-height;
+    color: $base-color;
+    margin-left: 10%;
+    margin-top: 7%;
+    margin-bottom: 0;
+  }
+  p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 3vw;
+    color: $base-color;
+    margin-left: 10%;
+    margin-right: 25%;
+  }
+}
+
+.prevPartners{
+  grid-column: span 7;
+  grid-row: span 1;
+  background-color: $bgd-color;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: $base-color;
+  h2{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: $sub-heading-height;
+  color: $base-color;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 0;
+  margin-top: 0;
+  }
+}
+
+.imageThree{
+  grid-column: span 9;
+  grid-row: span 5;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: $base-color;
+  // max-width: 100%;
+  // max-height: 100%;
+  //TODO: Fix this
+  width: 300px;
+  height: 200px;
+  background-image: url("../assets/imgs/website.png?as=webp&width=800");
+}
+
+
+// .trialImg{
+//   background-image: url("");
+// }

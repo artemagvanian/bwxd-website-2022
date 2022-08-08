@@ -5,6 +5,17 @@ import * as styles from "./About.module.scss";
 
 import data from "../data/bios.json";
 
+import {
+  Grid,
+  Cell,
+  Triangle,
+  MobileGrid,
+  DiagonalCell,
+} from "../components/Grid";
+import { MobileNav } from "../components/MobileNav";
+import * as mobileStyles from "./About.mobile.module.scss";
+import { BREAKPOINT } from "../App";
+
 const helen = new URL(
   "../assets/imgs/cochairs/helen.jpg?as=webp&width=320",
   import.meta.url
@@ -168,7 +179,7 @@ function renderSpacer() {
   return <div className={styles.committeeSpacer}></div>;
 }
 
-export function About() {
+function DesktopAbout() {
   return (
     <div>
       {" "}
@@ -415,5 +426,39 @@ export function About() {
       </Grid>
     </div>
   );
+}
+
+function MobileAbout() {
+  return (
+    <>
+      <MobileNav />
+      <MobileGrid>
+        <div className={mobileStyles.mainHeading}>
+          <h1>About</h1>
+        </div>
+        <div className={mobileStyles.imageOne}></div>
+        {/* todo: CHECK THIS */}
+
+        <NHomeCell n={18} />
+        <div className={mobileStyles.boxOne}>
+          <p>
+            Better World by Design is a student-led initiative at Brown
+            University and Rhode Island School of Design that celebrates the
+            interdisciplinary collaboration between designers, educators,
+            innovators, and learners. We envision a world where design-thinking
+            is accessible to everyone and aim to discuss, educate, and explore
+            ways that design can center alternative narratives. Through our
+            efforts, we hope to catalyze transformative change on local and
+            global scales.
+          </p>
+        </div>
+      </MobileGrid>
+    </>
+  );
+}
+
+export function About() {
+  const width = window.innerWidth;
+  return width < BREAKPOINT ? <MobileAbout /> : <DesktopAbout />;
 }
 export default About;
