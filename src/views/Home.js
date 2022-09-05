@@ -22,6 +22,10 @@ const homeBodyMobile = new URL(
   "../assets/placeholders/home-body-mobile.svg",
   import.meta.url
 );
+const homeFooterMobile = new URL(
+  "../assets/placeholders/home-footer-mobile.svg",
+  import.meta.url
+);
 
 function DecorativeFigure({ className }) {
   return (
@@ -271,6 +275,16 @@ function DesktopHome() {
   );
 }
 
+function MobileFooterPlaceholder() {
+  return (
+    <object
+      className={mobileStyles.homeFooterMobile}
+      data={homeFooterMobile}
+      type="image/svg+xml"
+    />
+  );
+}
+
 function DesktopHomePlaceholder() {}
 
 function MobileHomePlaceholder() {
@@ -282,6 +296,7 @@ function MobileHomePlaceholder() {
         data={homeBodyMobile}
         type="image/svg+xml"
       />
+      <MobileFooterPlaceholder />
     </>
   );
 }

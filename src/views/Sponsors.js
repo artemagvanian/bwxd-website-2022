@@ -16,6 +16,10 @@ const sponsorsBodyMobile = new URL(
   "../assets/placeholders/sponsors-body-mobile.svg",
   import.meta.url
 );
+const sponsorsFooterMobile = new URL(
+  "../assets/placeholders/sponsors-footer-mobile.svg",
+  import.meta.url
+);
 
 function NHomeCell({ n }) {
   return (
@@ -166,6 +170,16 @@ function MobileSponsors() {
   );
 }
 
+function MobileFooterPlaceholder() {
+  return (
+    <object
+      className={mobileStyles.sponsorsFooterMobile}
+      data={sponsorsFooterMobile}
+      type="image/svg+xml"
+    />
+  );
+}
+
 function DesktopSponsorsPlaceholder() {}
 
 function MobileSponsorsPlaceholder() {
@@ -177,6 +191,7 @@ function MobileSponsorsPlaceholder() {
         data={sponsorsBodyMobile}
         type="image/svg+xml"
       />
+      <MobileFooterPlaceholder />
     </>
   );
 }

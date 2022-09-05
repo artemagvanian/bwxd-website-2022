@@ -134,6 +134,11 @@ const aboutBodyMobile = new URL(
   import.meta.url
 );
 
+const aboutFooterMobile = new URL(
+  "../assets/placeholders/about-footer-mobile.svg",
+  import.meta.url
+);
+
 function NHomeCell({ n }) {
   return (
     <>
@@ -462,6 +467,16 @@ function MobileAbout() {
   );
 }
 
+function MobileFooterPlaceholder() {
+  return (
+    <object
+      className={mobileStyles.aboutFooterMobile}
+      data={aboutFooterMobile}
+      type="image/svg+xml"
+    />
+  );
+}
+
 function DesktopAboutPlaceholder() {}
 
 function MobileAboutPlaceholder() {
@@ -473,6 +488,7 @@ function MobileAboutPlaceholder() {
         data={aboutBodyMobile}
         type="image/svg+xml"
       />
+      <MobileFooterPlaceholder />
     </>
   );
 }
