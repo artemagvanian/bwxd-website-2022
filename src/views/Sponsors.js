@@ -12,6 +12,11 @@ import { MobileNav } from "../components/MobileNav";
 import * as mobileStyles from "./Sponsors.mobile.module.scss";
 import { BREAKPOINT } from "../App";
 
+const sponsorsBodyMobile = new URL(
+  "../assets/placeholders/sponsors-body-mobile.svg",
+  import.meta.url
+);
+
 function NHomeCell({ n }) {
   return (
     <>
@@ -161,9 +166,28 @@ function MobileSponsors() {
   );
 }
 
+function DesktopSponsorsPlaceholder() {}
+
+function MobileSponsorsPlaceholder() {
+  return (
+    <>
+      <MobileNav />
+      <object
+        className={mobileStyles.sponsorsBodyMobile}
+        data={sponsorsBodyMobile}
+        type="image/svg+xml"
+      />
+    </>
+  );
+}
+
 export function Sponsors() {
   //return <DesktopSponsors/>
   const width = window.innerWidth;
-  return width < BREAKPOINT ? <MobileSponsors /> : <DesktopSponsors />;
+  return width < BREAKPOINT ? (
+    <MobileSponsorsPlaceholder />
+  ) : (
+    <DesktopSponsors />
+  );
 }
 export default Sponsors;

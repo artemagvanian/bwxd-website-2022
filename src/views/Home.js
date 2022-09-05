@@ -18,6 +18,10 @@ import * as mobileStyles from "./Home.mobile.module.scss";
 import { BREAKPOINT } from "../App";
 
 const hero = new URL("../assets/hero.svg", import.meta.url);
+const homeBodyMobile = new URL(
+  "../assets/placeholders/home-body-mobile.svg",
+  import.meta.url
+);
 
 function DecorativeFigure({ className }) {
   return (
@@ -267,9 +271,24 @@ function DesktopHome() {
   );
 }
 
+function DesktopHomePlaceholder() {}
+
+function MobileHomePlaceholder() {
+  return (
+    <>
+      <MobileNav />
+      <object
+        className={mobileStyles.homeBodyMobile}
+        data={homeBodyMobile}
+        type="image/svg+xml"
+      />
+    </>
+  );
+}
+
 export function Home() {
   const width = window.innerWidth;
-  return width < BREAKPOINT ? <MobileHome /> : <DesktopHome />;
+  return width < BREAKPOINT ? <MobileHomePlaceholder /> : <DesktopHome />;
 }
 
 export default Home;

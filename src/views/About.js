@@ -129,6 +129,11 @@ const yuheng = new URL(
   import.meta.url
 );
 
+const aboutBodyMobile = new URL(
+  "../assets/placeholders/about-body-mobile.svg",
+  import.meta.url
+);
+
 function NHomeCell({ n }) {
   return (
     <>
@@ -457,8 +462,23 @@ function MobileAbout() {
   );
 }
 
+function DesktopAboutPlaceholder() {}
+
+function MobileAboutPlaceholder() {
+  return (
+    <>
+      <MobileNav />
+      <object
+        className={mobileStyles.aboutBodyMobile}
+        data={aboutBodyMobile}
+        type="image/svg+xml"
+      />
+    </>
+  );
+}
+
 export function About() {
   const width = window.innerWidth;
-  return width < BREAKPOINT ? <MobileAbout /> : <DesktopAbout />;
+  return width < BREAKPOINT ? <MobileAboutPlaceholder /> : <DesktopAbout />;
 }
 export default About;
