@@ -59,9 +59,9 @@ export function MobileNav({ color }) {
           <div className={styles.linkBlock}>
             <a
               className={`${styles.link} ${styles.join}`}
-              href="mailto:hello@betterworldxdesign.com"
+              href="https://payment.brown.edu/C20460_ustores/web/product_detail.jsp?PRODUCTID=4469&SINGLESTORE=true"
             >
-              Join
+              Tickets
             </a>
           </div>
         </div>
