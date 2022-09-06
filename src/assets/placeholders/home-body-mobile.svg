@@ -1,4 +1,9 @@
 <svg width="390" height="2129" viewBox="0 0 390 2129" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+    </style>
+</defs>
 <rect x="0.25" y="646.25" width="43.0556" height="43.0556" fill="#FEFCED" stroke="#2D2FF5" stroke-width="0.5"/>
 <rect x="43.8055" y="646.25" width="43.0556" height="43.0556" fill="#FEFCED" stroke="#2D2FF5" stroke-width="0.5"/>
 <rect x="87.3611" y="646.25" width="43.0556" height="43.0556" fill="#FEFCED" stroke="#2D2FF5" stroke-width="0.5"/>

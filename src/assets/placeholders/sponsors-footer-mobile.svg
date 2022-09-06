@@ -1,4 +1,9 @@
 <svg width="388" height="272" viewBox="0 0 388 272" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+    </style>
+</defs>
 <rect x="-2" width="390" height="272" fill="#31788E"/>
 <text fill="white" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="20" font-weight="600" letter-spacing="0em"><tspan x="44" y="70.2727">&#xa9; Better World x Design 2022</tspan></text>
 <a href="https://www.instagram.com/betterworldxdesign/" target="_blank">
