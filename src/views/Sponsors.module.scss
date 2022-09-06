@@ -88,13 +88,17 @@ $bgd-color: #fefced;
 .imageOne{
   grid-column: span 6;
   grid-row: span 4;
-  background-image: url("../assets/imgs/sponsor1.png?as=webp&width=800");
+  // background-image: url("../assets/imgs/sponsor1.png?as=webp&width=800");
+  background-image: url("../assets/imgs/sponsor1.png");
+  background-size: cover;
+  
 }
 
 .imageThree{
   grid-column: span 13;
   grid-row: span 6;
   background-image: url("../assets/imgs/website.png?as=webp&width=800");
+  background-size: cover;
 }
 
 .connect{
@@ -180,6 +184,7 @@ $bgd-color: #fefced;
   grid-column: span 7;
   grid-row: span 6;
   background-image: url("../assets/imgs/sponsor2.png?as=webp&width=800");
+  background-size: cover;
 }
 
 .emptyBoxTwo{
