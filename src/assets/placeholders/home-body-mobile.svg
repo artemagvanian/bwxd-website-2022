@@ -166,8 +166,6 @@
 <rect x="261.583" y="1518.69" width="43.0556" height="43.0556" fill="#FEFCED" stroke="#2D2FF5" stroke-width="0.5"/>
 <rect x="305.139" y="1518.69" width="43.0556" height="43.0556" fill="#FEFCED" stroke="#2D2FF5" stroke-width="0.5"/>
 <rect x="348.694" y="1518.69" width="43.0556" height="43.0556" fill="#FEFCED" stroke="#2D2FF5" stroke-width="0.5"/>
-<rect x="20.2159" y="1423.87" width="344.82" height="76.7404" transform="rotate(-4.26039 20.2159 1423.87)" fill="#FEFCED" stroke="#0003FF" stroke-width="0.682137"/>
-<text transform="translate(80.4412 1438.35) rotate(-4.26039)" fill="#2D2FF5" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="16" font-weight="500" letter-spacing="0em"><tspan x="9.64116" y="15.3182">How do you step outside of </tspan><tspan x="66.8208" y="34.3182">the &#x201c;frame&#x201d;?</tspan></text>
 <rect x="0.25" y="1562.25" width="43.0556" height="43.0556" fill="#FEFCED" stroke="#2D2FF5" stroke-width="0.5"/>
 <rect x="43.8055" y="1562.25" width="43.0556" height="43.0556" fill="#FEFCED" stroke="#2D2FF5" stroke-width="0.5"/>
 <rect x="87.3611" y="1562.25" width="43.0556" height="43.0556" fill="#FEFCED" stroke="#2D2FF5" stroke-width="0.5"/>
@@ -382,9 +380,11 @@
 <rect x="87.1827" y="951.635" width="348.731" height="43.3655" fill="#FEFCED" stroke="#2D2FF5" stroke-width="0.903448"/>
 <text fill="#2D2FF5" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="30" font-weight="500" letter-spacing="0em"><tspan x="143.197" y="984.285">Understanding</tspan></text>
 <path d="M108.865 960.217L123.34 985.288H94.3909L108.865 960.217Z" fill="#2D2FF5"/>
-<rect x="348.226" y="1038.23" width="41.5485" height="304.549" fill="#2D2FF5" stroke="#2D2FF5" stroke-width="0.451474"/>
-<rect x="-35" y="1038" width="383" height="305" fill="#FEFCED" stroke="#2D2FF5" stroke-width="0.5"/>
-<text fill="#2D2FF5" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="14" letter-spacing="0em"><tspan x="21.7778" y="1081.48">We recognize the power in recontextualizing </tspan><tspan x="21.7778" y="1098.48">our understanding of preexisting systems and </tspan><tspan x="21.7778" y="1115.48">methodologies.&#10;</tspan><tspan x="21.7778" y="1132.48">&#10;</tspan><tspan x="21.7778" y="1149.48">Our goal is to generate discussion around </tspan><tspan x="21.7778" y="1166.48">what frames enclose and exclude, and </tspan><tspan x="21.7778" y="1183.48">examine how voices can be pulled to the </tspan><tspan x="21.7778" y="1200.48">forefront through collaborative problem </tspan><tspan x="21.7778" y="1217.48">solving. We hope to explore practices that </tspan><tspan x="21.7778" y="1234.48">challenge and disrupt traditional conventions, </tspan><tspan x="21.7778" y="1251.48">amplify historically underrepresented voices, </tspan><tspan x="21.7778" y="1268.48">and draw attention to local and global </tspan><tspan x="21.7778" y="1285.48">inequalities. To drive our exploration, we bring </tspan><tspan x="21.7778" y="1302.48">together a diverse community of critical </tspan><tspan x="21.7778" y="1319.48">thinkers.&#13;</tspan></text>
+<rect x="348.226" y="1038.23" width="41.5485" height="131.549" fill="#2D2FF5" stroke="#2D2FF5" stroke-width="0.451474"/>
+<rect x="1.22574" y="1257.23" width="41.5485" height="173.549" fill="#2D2FF5" stroke="#2D2FF5" stroke-width="0.451474"/>
+<rect x="-35" y="1038" width="383" height="132" fill="#FEFCED" stroke="#2D2FF5" stroke-width="0.5"/>
+<rect x="44" y="1171" width="346" height="304" fill="#FEFCED" stroke="#2D2FF5" stroke-width="0.5"/>
+<text fill="#2D2FF5" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="14" letter-spacing="0em"><tspan x="68" y="1081.59">We recognize the power in </tspan><tspan x="68" y="1098.59">recontextualizing our understanding </tspan><tspan x="68" y="1115.59">of preexisting systems and </tspan><tspan x="68" y="1132.59">methodologies.</tspan></text>
 <rect x="158.318" y="646.358" width="103.071" height="42.9774" fill="#2D2FF5"/>
 <path d="M218.055 688.655L174.718 646.801H218.055V688.655Z" fill="#FEFCED" stroke="#2D2FF5" stroke-width="0.445362"/>
 <path d="M-0.055542 646.333H43.5V688.935L-0.055542 646.333Z" fill="#FEFCED" stroke="#2D2FF5"/>
@@ -398,23 +398,21 @@
 <path d="M135.061 134.172C135.061 139.627 138.64 143.59 146.012 143.59C152.49 143.59 157.902 137.879 159.265 133.746V143.419H164.251V125.053C164.251 120.024 162.461 113.462 150.018 113.462C142.305 113.462 136.765 116.786 135.913 122.965H140.43C140.984 119.002 145.032 117.596 149.976 117.596C157.433 117.596 159.265 121.686 159.265 123.902L144.777 125.309C138.811 125.905 135.061 129.698 135.061 134.172ZM140.047 134.215C140.047 131.871 141.709 129.272 145.629 128.888L159.223 127.652C156.581 135.621 150.998 139.456 146.055 139.456C141.879 139.456 140.047 137.24 140.047 134.215Z" fill="#FEFCED"/>
 <path d="M208.451 113.59C203.082 113.59 199.375 116.828 198.182 120.536C196.775 116.189 193.196 113.59 185.994 113.59C180.497 113.59 177.642 115.976 176.492 119.343V117.936C176.492 115.422 174.659 113.59 172.145 113.59H167.798V117.723H171.506V143.419H176.492V125.99C176.492 121.601 179.261 117.723 185.781 117.723C191.406 117.723 193.963 120.067 193.963 125.99V143.419H198.906V125.99C198.906 121.601 201.719 117.723 208.196 117.723C212.968 117.723 216.378 120.067 216.378 125.99V143.419H221.363V125.99C221.363 118.49 217.059 113.59 208.451 113.59Z" fill="#FEFCED"/>
 <path d="M253.788 130.891C253.788 118.576 248.547 113.462 239.598 113.462C230.649 113.462 225.323 118.576 225.323 129.485C225.323 134.556 226.985 143.59 239.598 143.59C246.757 143.59 252.467 140.308 253.234 133.916H248.334C247.78 137.368 244.754 139.073 239.598 139.073C231.544 139.073 230.649 134.598 230.649 130.891H253.788ZM248.206 127.098H230.692C231.075 121.132 233.419 117.894 239.598 117.894C245.777 117.894 247.822 121.132 248.206 127.098Z" fill="#FEFCED"/>
-<path d="M152.765 49.3925V96.0457H316.195L266.83 49.3925H152.765Z" stroke="#FEFCED" stroke-width="4.78495"/>
+<path d="M152.765 96.0457H316.195L266.83 49.3925H152.765V96.0457Z" stroke="#FEFCED" stroke-width="4.78495"/>
 <path d="M319.817 98.4382V151.073H267.781V98.4382" stroke="#FEFCED" stroke-width="4.78495"/>
-<a href="https://payment.brown.edu/C20460_ustores/web/product_detail.jsp?PRODUCTID=4469" target="_blank">
-  <rect x="60" y="179" width="272" height="50" fill="white"/>
-  <text fill="#2d2ff5" font-family="Inter" font-weight="500" font-size="30" x="109" y="213.909">Tickets</text>
-  <text fill="#2D2FF5" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="40.3846" font-weight="500" letter-spacing="0em"><tspan x="252" y="221.185">&#x2197;</tspan></text>
-</a>
-<!-- <a href="#" target="_blank"> -->
+<rect x="60" y="179" width="272" height="50" fill="white"/>
+<text fill="#2D2FF5" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="30" font-weight="500" letter-spacing="0em"><tspan x="109" y="213.909">Tickets</tspan></text>
+<path d="M262.526 213.829L259.902 211.191L275.806 195.258H263.616L263.645 191.629H282.073V210.072H278.416L278.445 197.882L262.526 213.829Z" fill="#2D2FF5"/>
 <rect x="61" y="251" width="270" height="48" fill="#2D2FF5" stroke="#FEFCED" stroke-width="2"/>
-<text fill="#FEFCED" font-family="Inter" font-weight="500" font-size="30" x="105" y="285.909">Schedule</text>
-<text fill="#FEFCED" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="40.3846" font-weight="500" letter-spacing="0em"><tspan x="253" y="293.185">&#x2197;</tspan></text>
-<!-- </a> -->
-<path d="M44 1562H348V1736H44V1562Z" fill="#FEFCED" stroke="#2D2FF5" stroke-width="0.902692"/>
-<text fill="#2D2FF5" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="36.1077" font-weight="600" letter-spacing="0em"><tspan x="62" y="1615.13">Map</tspan></text>
-<text fill="#2D2FF5" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="20" font-weight="500" letter-spacing="0em"><tspan x="62" y="1647.27">Brown University &#38; Rhode </tspan><tspan x="62" y="1671.27">Island School of Design</tspan></text>
-<text fill="#2D2FF5" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="14" letter-spacing="0em"><tspan x="61" y="1697.59">Click and drag to see the </tspan><tspan x="61" y="1714.59">activity locations</tspan></text>
-<rect x="44" y="1736" width="303" height="261" fill="url(#pattern0)"/>
+<text fill="#FEFCED" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="30" font-weight="500" letter-spacing="0em"><tspan x="105" y="285.909">Schedule</tspan></text>
+<path d="M263.526 285.829L260.902 283.191L276.806 267.258H264.616L264.645 263.629H283.073V282.072H279.416L279.445 269.882L263.526 285.829Z" fill="#FEFCED"/>
+<path d="M44 1650H348V1824H44V1650Z" fill="#FEFCED" stroke="#2D2FF5" stroke-width="0.902692"/>
+<text fill="#2D2FF5" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="36.1077" font-weight="600" letter-spacing="0em"><tspan x="62" y="1717.13">Map</tspan></text>
+<text fill="#2D2FF5" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="20" font-weight="500" letter-spacing="0em"><tspan x="62" y="1755.27">Brown University &#38; Rhode </tspan><tspan x="62" y="1779.27">Island School of Design</tspan></text>
+<rect x="44" y="1824" width="303" height="261" fill="url(#pattern0)"/>
+<text fill="#2D2FF5" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="14" letter-spacing="0em"><tspan x="99" y="1237.59">Our goal is to generate discussion </tspan><tspan x="99" y="1254.59">around what frames enclose and </tspan><tspan x="99" y="1271.59">exclude, and examine how voices can </tspan><tspan x="99" y="1288.59">be pulled to the forefront through </tspan><tspan x="99" y="1305.59">collaborative problem solving. We hope </tspan><tspan x="99" y="1322.59">to explore practices that challenge and </tspan><tspan x="99" y="1339.59">disrupt traditional conventions, amplify </tspan><tspan x="99" y="1356.59">historically underrepresented voices, </tspan><tspan x="99" y="1373.59">and draw attention to local and global </tspan><tspan x="99" y="1390.59">inequalities. To drive our exploration, </tspan><tspan x="99" y="1407.59">we bring together a diverse community </tspan><tspan x="99" y="1424.59">of critical thinkers.&#13;</tspan></text>
+<rect x="22.3655" y="1528.98" width="344.82" height="76.7404" transform="rotate(-4.26039 22.3655 1528.98)" fill="#FEFCED" stroke="#0003FF" stroke-width="0.682137"/>
+<text transform="translate(82.5907 1543.46) rotate(-4.26039)" fill="#2D2FF5" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="16" font-weight="500" letter-spacing="0em"><tspan x="9.64116" y="15.3182">How do you step outside of </tspan><tspan x="66.8208" y="34.3182">the &#x201c;frame&#x201d;?</tspan></text>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_915_4" transform="translate(-0.129844) scale(0.0011997 0.00139276)"/>
