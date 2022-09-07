@@ -400,9 +400,11 @@
 <path d="M253.788 130.891C253.788 118.576 248.547 113.462 239.598 113.462C230.649 113.462 225.323 118.576 225.323 129.485C225.323 134.556 226.985 143.59 239.598 143.59C246.757 143.59 252.467 140.308 253.234 133.916H248.334C247.78 137.368 244.754 139.073 239.598 139.073C231.544 139.073 230.649 134.598 230.649 130.891H253.788ZM248.206 127.098H230.692C231.075 121.132 233.419 117.894 239.598 117.894C245.777 117.894 247.822 121.132 248.206 127.098Z" fill="#FEFCED"/>
 <path d="M152.765 96.0457H316.195L266.83 49.3925H152.765V96.0457Z" stroke="#FEFCED" stroke-width="4.78495"/>
 <path d="M319.817 98.4382V151.073H267.781V98.4382" stroke="#FEFCED" stroke-width="4.78495"/>
-<rect x="60" y="179" width="272" height="50" fill="white"/>
-<text fill="#2D2FF5" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="30" font-weight="500" letter-spacing="0em"><tspan x="109" y="213.909">Tickets</tspan></text>
-<path d="M262.526 213.829L259.902 211.191L275.806 195.258H263.616L263.645 191.629H282.073V210.072H278.416L278.445 197.882L262.526 213.829Z" fill="#2D2FF5"/>
+<a href="https://payment.brown.edu/C20460_ustores/web/product_detail.jsp?PRODUCTID=4469" target="_blank">
+    <rect x="60" y="179" width="272" height="50" fill="white"/>
+    <text fill="#2D2FF5" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="30" font-weight="500" letter-spacing="0em"><tspan x="109" y="213.909">Tickets</tspan></text>
+    <path d="M262.526 213.829L259.902 211.191L275.806 195.258H263.616L263.645 191.629H282.073V210.072H278.416L278.445 197.882L262.526 213.829Z" fill="#2D2FF5"/>
+</a>
 <rect x="61" y="251" width="270" height="48" fill="#2D2FF5" stroke="#FEFCED" stroke-width="2"/>
 <text fill="#FEFCED" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="30" font-weight="500" letter-spacing="0em"><tspan x="105" y="285.909">Schedule</tspan></text>
 <path d="M263.526 285.829L260.902 283.191L276.806 267.258H264.616L264.645 263.629H283.073V282.072H279.416L279.445 269.882L263.526 285.829Z" fill="#FEFCED"/>
