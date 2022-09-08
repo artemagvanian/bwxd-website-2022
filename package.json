@@ -4,7 +4,7 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "parcel",
-    "build": "mkdir ./dist && mkdir ./dist/history && cp -R ./better-world-2021/* ./dist/history && parcel build --no-optimize",
+    "build": "mkdir ./dist && mkdir ./dist/history && cp -R ./better-world-2021/* ./dist/history && cp ./src/assets/schedule.pdf ./dist && parcel build --no-optimize",
     "report": "parcel build src/index.html --reporter @parcel/reporter-bundle-buddy",
     "test": "jest",
     "prepare": "husky install",

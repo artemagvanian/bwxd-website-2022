@@ -405,9 +405,11 @@
     <text fill="#2D2FF5" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="30" font-weight="500" letter-spacing="0em"><tspan x="109" y="213.909">Tickets</tspan></text>
     <path d="M262.526 213.829L259.902 211.191L275.806 195.258H263.616L263.645 191.629H282.073V210.072H278.416L278.445 197.882L262.526 213.829Z" fill="#2D2FF5"/>
 </a>
-<rect x="61" y="251" width="270" height="48" fill="#2D2FF5" stroke="#FEFCED" stroke-width="2"/>
-<text fill="#FEFCED" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="30" font-weight="500" letter-spacing="0em"><tspan x="105" y="285.909">Schedule</tspan></text>
-<path d="M263.526 285.829L260.902 283.191L276.806 267.258H264.616L264.645 263.629H283.073V282.072H279.416L279.445 269.882L263.526 285.829Z" fill="#FEFCED"/>
+<a href="https://betterworldxdesign.com/schedule.pdf" target="_blank">
+    <rect x="61" y="251" width="270" height="48" fill="#2D2FF5" stroke="#FEFCED" stroke-width="2"/>
+    <text fill="#FEFCED" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="30" font-weight="500" letter-spacing="0em"><tspan x="105" y="285.909">Schedule</tspan></text>
+    <path d="M263.526 285.829L260.902 283.191L276.806 267.258H264.616L264.645 263.629H283.073V282.072H279.416L279.445 269.882L263.526 285.829Z" fill="#FEFCED"/>
+</a>
 <path d="M44 1650H348V1824H44V1650Z" fill="#FEFCED" stroke="#2D2FF5" stroke-width="0.902692"/>
 <text fill="#2D2FF5" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="36.1077" font-weight="600" letter-spacing="0em"><tspan x="62" y="1717.13">Map</tspan></text>
 <text fill="#2D2FF5" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="20" font-weight="500" letter-spacing="0em"><tspan x="62" y="1755.27">Brown University &#38; Rhode </tspan><tspan x="62" y="1779.27">Island School of Design</tspan></text>
