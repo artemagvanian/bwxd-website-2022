@@ -10,7 +10,6 @@ import {
   NHomeCell,
 } from "../components/Grid";
 import { MobileNav } from "../components/MobileNav";
-import { SpeakerA, SpeakerB } from "../components/Speaker";
 
 import * as styles from "./Home.module.scss";
 import * as mobileStyles from "./Home.mobile.module.scss";
@@ -24,6 +23,10 @@ const homeBodyMobile = new URL(
 );
 const homeFooterMobile = new URL(
   "../assets/placeholders/home-footer-mobile.svg",
+  import.meta.url
+);
+const homeBodyDesktop = new URL(
+  "../assets/placeholders/home-body-desktop.svg",
   import.meta.url
 );
 
@@ -285,7 +288,26 @@ function MobileFooterPlaceholder() {
   );
 }
 
-function DesktopHomePlaceholder() {}
+function DesktopHomePlaceholder() {
+  function onTextLoad(spline) {
+    const zoom = 0.75 / 1000;
+    spline.setZoom(zoom * window.innerWidth);
+  }
+  return (
+    <>
+      <object
+        className={styles.homeBodyDesktop}
+        data={homeBodyDesktop}
+        type="image/svg+xml"
+      />
+      <Spline
+        className={styles.spline}
+        onLoad={onTextLoad}
+        scene="https://prod.spline.design/PHcDh7LB4SnDataV/scene.spline"
+      />
+    </>
+  );
+}
 
 function MobileHomePlaceholder() {
   return (
@@ -303,7 +325,11 @@ function MobileHomePlaceholder() {
 
 export function Home() {
   const width = window.innerWidth;
-  return width < BREAKPOINT ? <MobileHomePlaceholder /> : <DesktopHome />;
+  return width < BREAKPOINT ? (
+    <MobileHomePlaceholder />
+  ) : (
+    <DesktopHomePlaceholder />
+  );
 }
 
 export default Home;

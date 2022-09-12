@@ -107,6 +107,7 @@
 .spline {
   background-image: url(../assets/grid.svg);
   background-repeat: repeat-y;
+  margin-top: -7px;
 }
 
 .heroContainer {
@@ -123,5 +124,10 @@
 
 .hero,
 .mobileHero {
+  width: 100vw;
+}
+
+.homeBodyDesktop,
+.homeFooterDesktop {
   width: 100vw;
 }
