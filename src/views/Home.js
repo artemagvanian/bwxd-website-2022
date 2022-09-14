@@ -293,13 +293,26 @@ function DesktopHomePlaceholder() {
     const zoom = 0.75 / 1000;
     spline.setZoom(zoom * window.innerWidth);
   }
+
+  function onLoad(spline) {
+    const zoom = 0.9 / 1000;
+    spline.setZoom(zoom * window.innerWidth);
+  }
+
   return (
     <>
-      <object
-        className={styles.homeBodyDesktop}
-        data={homeBodyDesktop}
-        type="image/svg+xml"
-      />
+      <div className={styles.heroContainer}>
+        <object
+          className={styles.homeBodyDesktop}
+          data={homeBodyDesktop}
+          type="image/svg+xml"
+        />
+        <Spline
+          className={styles.heroSpline}
+          onLoad={onLoad}
+          scene="https://prod.spline.design/8YOehY3Q7LzRE6J1/scene.spline"
+        />
+      </div>
       <Spline
         className={styles.spline}
         onLoad={onTextLoad}

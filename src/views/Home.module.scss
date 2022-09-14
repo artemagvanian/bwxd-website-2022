@@ -114,12 +114,13 @@
   width: 100vw;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: top;
   background-color: #FEFCED;
 }
 
 .heroSpline {
   position: absolute;
+  transform: scale(0.75) translateX(-45%) translateY(-200px) ;
 }
 
 .hero,
