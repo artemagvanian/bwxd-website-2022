@@ -53,8 +53,20 @@ function DesktopSponsors() {
         <div className={styles.mainHeading}>
           <h1>Sponsors</h1>
         </div>
+
         <NHomeCell n={1} />
-        {/* sandwich ways of adding boxes */}
+
+        <div className={styles.specialThanks}>
+          <h2>Special thanks to our sponsors this year</h2>
+          <div className={styles.sponsorContainer}>
+            <div className={styles.juke}></div>
+            <div className={styles.bai}></div>
+          </div>
+          <div className={styles.trial}></div>
+        </div>
+        <NHomeCell n={8} />
+
+        {/* older code */}
         <NHomeCell n={15} />
         <div className={styles.subHeading}>
           <h2>Why Sponsor Us?</h2>
