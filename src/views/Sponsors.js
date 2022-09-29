@@ -62,7 +62,7 @@ function DesktopSponsors() {
             <div className={styles.juke}></div>
             <div className={styles.bai}></div>
           </div>
-          <div className={styles.trial}></div>
+          {/* <div className={styles.trial}></div> */}
         </div>
         <NHomeCell n={8} />
 
