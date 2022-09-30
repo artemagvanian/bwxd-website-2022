@@ -17,6 +17,10 @@ import * as mobileStyles from "./Home.mobile.module.scss";
 import { BREAKPOINT } from "../App";
 
 const hero = new URL("../assets/hero.svg", import.meta.url);
+const homeHeroMobile = new URL(
+  "../assets/placeholders/home-hero-mobile.svg",
+  import.meta.url
+);
 const homeBodyMobile = new URL(
   "../assets/placeholders/home-body-mobile.svg",
   import.meta.url
@@ -326,6 +330,11 @@ function MobileHomePlaceholder() {
   return (
     <>
       <MobileNav />
+      <object
+        className={mobileStyles.homeHeroMobile}
+        data={homeHeroMobile}
+        type="image/svg+xml"
+      />
       <object
         className={mobileStyles.homeBodyMobile}
         data={homeBodyMobile}
